@@ -1,0 +1,26 @@
+/opt/TurboVNC/bin/vncviewer ip_address:2 -securitytypes UnixLogin -user ___ -password ___
+
+=> Remote connect with CiscoAnnyConnect to IAI department:
+
+vpn.uni-bremen.de/agkitunnel
+
+=> TurboVNC tips
+
+to connect
+
+/opt/TurboVNC/bin/vncviewer mariana:1
+
+to kill (do it from from serever pc)
+/opt/TurboVNC/bin/vncserver -kill:1
+
+to restart display 1
+
+/opt/TurboVNC/bin/vncserver  :1
+
+
+/opt/TurboVNC/bin/vncserver
+
+to see number of desktop 
+/opt/TurboVNC/bin/vncserver -list
+
+run prgram from client 

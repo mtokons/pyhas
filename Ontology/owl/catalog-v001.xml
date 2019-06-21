@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.daml.org/2003/01/periodictable/PeriodicTable" uri="http://www.daml.org/2003/01/periodictable/PeriodicTable.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1561113632350" name="http://www.daml.org/2003/01/periodictable/PeriodicTable" uri="PeriodicTable.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1561113632350" name="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl" uri="units.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1561113632350" name="http://www.semanticweb.org/mareike/ontologies/2019/3/MatCALO" uri="matcalo.owl"/>
+    </group>
+</catalog>

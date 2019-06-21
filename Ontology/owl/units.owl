@@ -1,0 +1,558 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#"
+     xml:base="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:materials="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#DensityUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#DensityUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#DimensionLessUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#DimensionLessUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#EnergyUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#EnergyUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#ForceUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#ForceUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#FrequencyUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#FrequencyUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HardnessUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HardnessUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Interval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#IntervalUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#IntervalUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#IntervalUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#MassUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#MassUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Misc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Misc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Percent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Percent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#DimensionLessUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#PressureUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#PressureUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TemperatureUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TemperatureUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#VolumeUnit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#VolumeUnit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Unit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HBW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HBW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HardnessUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#HardnessUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#bit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#bit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#byte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#byte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#centimeter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#centimeter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#century -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#century">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#decimeter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#decimeter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#degC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#degC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TemperatureUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#degF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#degF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TemperatureUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#gigabyte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#gigabyte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#gigapascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#gigapascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#PressureUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#gram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#gram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#MassUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#hertz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#hertz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#FrequencyUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#hour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#hour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#joule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#joule">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#EnergyUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kWh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kWh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#EnergyUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kelvin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kelvin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TemperatureUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kibibyte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kibibyte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kilobyte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kilobyte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kilogram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kilogram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#MassUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kilogram_per_cubic_meter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#kilogram_per_cubic_meter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#DensityUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#liter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#liter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#VolumeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#mebibyte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#mebibyte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#megaHertz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#megaHertz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#FrequencyUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#megabyte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#megabyte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#megapascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#megapascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#PressureUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#meter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#meter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#micrometer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#micrometer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#microsecond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#microsecond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#milligram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#milligram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#MassUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#milliliter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#milliliter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#VolumeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#millimeter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#millimeter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#millisecond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#millisecond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#minute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#minute">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#month -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#month">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#nanometer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#nanometer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#nanosecond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#nanosecond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#newton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#newton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#ForceUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#pascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#pascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#PressureUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#Percent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#picometer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#picometer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#LengthUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#picosecond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#picosecond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#second -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#second">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#terabyte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#terabyte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#InformationUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#week -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#week">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#year">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl#TimeUnit"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
