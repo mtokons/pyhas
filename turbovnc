@@ -1,5 +1,7 @@
 /opt/TurboVNC/bin/vncviewer ip_address:2 -securitytypes UnixLogin -user ___ -password ___
 
+/opt/TurboVNC/bin/vncviewer 192.168.100.234:2 -securitytypes UnixLogin -user hasnain -password ht
+
 => Remote connect with CiscoAnnyConnect to IAI department:
 
 vpn.uni-bremen.de/agkitunnel
