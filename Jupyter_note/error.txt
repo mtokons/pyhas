@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-186-37665fa87fa9> in <module>
+      1 import types
+----> 2 types.new_class(Cs, (onto["Thing"],))
+
+/usr/lib/python3.6/types.py in new_class(name, bases, kwds, exec_body)
+     60     if exec_body is not None:
+     61         exec_body(ns)
+---> 62     return meta(name, bases, ns, **kwds)
+     63
+     64 def prepare_class(name, bases=(), kwds=None):
+
+TypeError: NoneType takes no arguments

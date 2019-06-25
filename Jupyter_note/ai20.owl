@@ -52,5 +52,36 @@
   <rdfs:subClassOf rdf:resource="#Bz"/>
 </owl:Class>
 
+<owl:Class rdf:about="#ZiSub">
+  <rdfs:subClassOf rdf:resource="#Bz"/>
+  <rdfs:subClassOf rdf:resource="#Alu"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Zbb">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ZccSub">
+  <rdfs:subClassOf rdf:resource="#Zbb"/>
+  <rdfs:subClassOf rdf:resource="#Bz"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cs">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#item">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#abc">
+  <rdfs:subClassOf rdf:resource="#item"/>
+  <rdfs:subClassOf rdf:resource="#Cs"/>
+</owl:Class>
+
+<owl:Class rdf:about="#alumin">
+  <rdfs:subClassOf rdf:resource="#Cs"/>
+</owl:Class>
+
 
 </rdf:RDF>
