@@ -83,5 +83,42 @@
   <rdfs:subClassOf rdf:resource="#Cs"/>
 </owl:Class>
 
+<owl:Class rdf:about="#Na">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Drug">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ha">
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOmething">
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nitro">
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#zinc">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#A">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#r">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#2">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
 
 </rdf:RDF>
