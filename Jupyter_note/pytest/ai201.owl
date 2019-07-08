@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20"
+         xmlns="http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20#">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20"/>
+
+<owl:Class rdf:about="#Alu"/>
+
+<owl:Class rdf:about="#Zu"/>
+
+<owl:Class rdf:about="#Bz">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cx">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CxSub">
+  <rdfs:subClassOf rdf:resource="#Cx"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CaSub">
+  <rdfs:subClassOf rdf:resource="#Cx"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CbSub">
+  <rdfs:subClassOf rdf:resource="#Cx"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CcSub">
+  <rdfs:subClassOf rdf:resource="#Cx"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dx">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ZaSub">
+  <rdfs:subClassOf rdf:resource="#Bz"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ZbSub">
+  <rdfs:subClassOf rdf:resource="#Dx"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ZcSub">
+  <rdfs:subClassOf rdf:resource="#Bz"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ZiSub">
+  <rdfs:subClassOf rdf:resource="#Bz"/>
+  <rdfs:subClassOf rdf:resource="#Alu"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Zbb">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ZccSub">
+  <rdfs:subClassOf rdf:resource="#Zbb"/>
+  <rdfs:subClassOf rdf:resource="#Bz"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cs">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#item">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#abc">
+  <rdfs:subClassOf rdf:resource="#item"/>
+  <rdfs:subClassOf rdf:resource="#Cs"/>
+</owl:Class>
+
+<owl:Class rdf:about="#alumin">
+  <rdfs:subClassOf rdf:resource="#Cs"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Na">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Drug">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ha">
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOmething">
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nitro">
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#zinc">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf rdf:resource="#Drug"/>
+</owl:Class>
+
+<owl:Class rdf:about="#A">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#r">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#2">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+
+</rdf:RDF>
