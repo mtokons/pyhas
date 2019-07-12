@@ -22,6 +22,8 @@
 
 <Drug rdf:about="#my_drug_peracitable">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_for_ingredient rdf:resource="#codeine"/>
+  <has_for_ingredient rdf:resource="#codeine11"/>
 </Drug>
 
 <Drug rdf:about="#drug1">
@@ -118,10 +120,44 @@
 
 <Ingredient rdf:about="#acetaminophen">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paracétamol</has_for_synonym>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetaminophen</has_for_synonym>
 </Ingredient>
 
 <Ingredient rdf:about="#codeine">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Ingredient>
+
+<Drug rdf:about="#my_drug1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_for_ingredient rdf:resource="#acetaminophen1"/>
+</Drug>
+
+<Drug rdf:about="#my_drug122">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_for_ingredient rdf:resource="#acetaminophen2"/>
+</Drug>
+
+<Ingredient rdf:about="#acetaminophen1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paracétamol</has_for_synonym>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetaminophen</has_for_synonym>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetaminophen1</has_for_synonym>
+</Ingredient>
+
+<Ingredient rdf:about="#codeine1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Ingredient>
+
+<Ingredient rdf:about="#codeine11">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Ingredient>
+
+<Ingredient rdf:about="#acetaminophen2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paracétamol</has_for_synonym>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetaminophen</has_for_synonym>
+  <has_for_synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetaminophen1</has_for_synonym>
 </Ingredient>
 
 

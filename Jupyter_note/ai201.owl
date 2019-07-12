@@ -120,16 +120,8 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#ab">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#ac">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#ad">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+<owl:Class rdf:about="#yb">
+  <rdfs:subClassOf rdf:resource="#A"/>
 </owl:Class>
 
 
