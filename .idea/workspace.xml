@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38887b5e-68e0-458d-9dec-340968e623dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pyhas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontology/owl/PeriodicTable.owl" beforeDir="false" afterPath="$PROJECT_DIR$/Ontology/owl/PeriodicTable.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontology/owl/catalog-v001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ontology/owl/catalog-v001.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ontology/owl/matcalo.owl" beforeDir="false" afterPath="$PROJECT_DIR$/Ontology/owl/matcalo.owl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter_note/Untitled3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_note/Untitled3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter_note/pytest/matcal.owl" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_note/pytest/matcal.owl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jupyter_note/pytest/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jupyter_note/pytest/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +13,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jupyter_note/pytest/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#2#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +42,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Ontology/owlready2.py" />
+        <option value="$PROJECT_DIR$/Jupyter_note/test1.py" />
+        <option value="$PROJECT_DIR$/Jupyter_note/pytest/test1.py" />
       </list>
     </option>
   </component>
@@ -48,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -59,18 +68,31 @@
             <path>
               <item name="pyhas" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyhas" type="462c0819:PsiDirectoryNode" />
+              <item name="Jupyter_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyhas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyhas" type="462c0819:PsiDirectoryNode" />
+              <item name="Jupyter_note" type="462c0819:PsiDirectoryNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyhas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyhas" type="462c0819:PsiDirectoryNode" />
               <item name="Ontology" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Jupyter_note/pytest/test1.py" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test1">
     <configuration name="owlready2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyhas" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,8 +128,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyhas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jupyter_note/pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Jupyter_note/pytest/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.owlready2" />
+      <item itemvalue="Python.test1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.owlready2" />
       </list>
     </recent_temporary>
@@ -127,6 +175,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="47" width="1193" height="957" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24957265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -148,10 +197,34 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ontology/owlready2.py">
+    <entry file="file://$PROJECT_DIR$/Ontology/owlready2.py" />
+    <entry file="file://$PROJECT_DIR$/Jupyter_note/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#50#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter_note/pytest/ai201.owl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter_note/pytest/matcal.owl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter_note/pytest/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#2#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

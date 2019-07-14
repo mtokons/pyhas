@@ -295,12 +295,6 @@
     
 
 
-    <!-- http://www.daml.org/2003/01/periodictable/PeriodicTable#Hasss -->
-
-    <owl:Class rdf:about="http://www.daml.org/2003/01/periodictable/PeriodicTable#Hasss"/>
-    
-
-
     <!-- http://www.daml.org/2003/01/periodictable/PeriodicTable#Period -->
 
     <owl:Class rdf:about="http://www.daml.org/2003/01/periodictable/PeriodicTable#Period">
@@ -1086,12 +1080,6 @@
         <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen</name>
         <symbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H</symbol>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.daml.org/2003/01/periodictable/PeriodicTable#HR -->
-
-    <owl:NamedIndividual rdf:about="http://www.daml.org/2003/01/periodictable/PeriodicTable#HR"/>
     
 
 

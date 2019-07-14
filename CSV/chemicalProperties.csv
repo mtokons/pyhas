@@ -1,0 +1,3488 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-81a59bf26d881d29286674f6deefe779c444382fff322085b50ba455460ccae5.css" integrity="sha256-gaWb8m2IHSkoZnT23u/necREOC//MiCFtQukVUYMyuU=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-cc9de0e8eacc2e4692137e919b3627e9d539401c99d4e78b4a344c5fe153899a.css" integrity="sha256-zJ3g6OrMLkaSE36RmzYn6dU5QByZ1OeLSjRMX+FTiZo=" media="all" rel="stylesheet" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>periodic-table/data.csv at master · andrejewski/periodic-table</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars3.githubusercontent.com/u/1660953?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="andrejewski/periodic-table" property="og:title" /><meta content="https://github.com/andrejewski/periodic-table" property="og:url" /><meta content="periodic-table - periodic elements data" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTc0NDM0MzQ2OjY3NjkwZTllOTRhNTNhNDg0MDk0NDJhMjY2ZTUwYTU5OGE0NTg5MGUyMmZlOGM3MGJiMmI5Mzk3NzkyZWQyZGI=--3081609c0ba3b7c0e56b0f74eaf4a7c1e28da8a8">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="FC4B:45BB:401EAB0:5FB338E:59248E3E" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="FC4B:45BB:401EAB0:5FB338E:59248E3E" name="octolytics-dimension-request_id" /><meta content="26511028" name="octolytics-actor-id" /><meta content="manassharma07" name="octolytics-actor-login" /><meta content="e065c9a5484d333c3300a8ff19913138c242483c2b99362d5fe5499e860f9dbc" name="octolytics-actor-hash" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="manassharma07">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZmI3Mzc4NzIwNzViMjI1Mzk2ZTg0MmU0NGM2ZjJlZjg1NWY1Yzk3MDJmZDY4YjI3M2MwZmYzOTg4M2VhNjIxMXx7InJlbW90ZV9hZGRyZXNzIjoiMTAzLjE5NS4yMzQuMjM3IiwicmVxdWVzdF9pZCI6IkZDNEI6NDVCQjo0MDFFQUIwOjVGQjMzOEU6NTkyNDhFM0UiLCJ0aW1lc3RhbXAiOjE0OTU1Njc5MzksImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+
+  <meta name="html-safe-nonce" content="b0db700ebd9492d304952c9d22e2b3a3fe96db8d">
+
+  <meta http-equiv="x-pjax-version" content="41915c7ca180787506dc821fa760322f">
+  
+
+    
+  <meta name="description" content="periodic-table - periodic elements data">
+  <meta name="go-import" content="github.com/andrejewski/periodic-table git https://github.com/andrejewski/periodic-table.git">
+
+  <meta content="1660953" name="octolytics-dimension-user_id" /><meta content="andrejewski" name="octolytics-dimension-user_login" /><meta content="32284977" name="octolytics-dimension-repository_id" /><meta content="andrejewski/periodic-table" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="32284977" name="octolytics-dimension-repository_network_root_id" /><meta content="andrejewski/periodic-table" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/andrejewski/periodic-table/commits/master.atom" rel="alternate" title="Recent Commits to periodic-table:master" type="application/atom+xml">
+
+
+    <link rel="canonical" href="https://github.com/andrejewski/periodic-table/blob/master/data.csv" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<div class="header" role="banner">
+  <div class="container clearfix">
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+
+        <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andrejewski/periodic-table/search" class="js-site-search-form" data-scoped-search-url="/andrejewski/periodic-table/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/andrejewski/periodic-table/blob/master/data.csv" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+      <ul class="header-nav float-left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+            <li class="header-nav-item">
+              <a href="/marketplace" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                Marketplace
+</a>            </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav float-right" id="user-links">
+  <li class="header-nav-item">
+    
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="andrejewski/periodic-table">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/andrejewski/periodic-table/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="/manassharma07"
+       aria-label="View profile and more"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@manassharma07" class="avatar" src="https://avatars0.githubusercontent.com/u/26511028?v=3&amp;s=40" height="20" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">manassharma07</strong>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/manassharma07" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="/manassharma07?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WUI4Bk0DMZ+f0AsGbR+/FJ/Ppu9qJkX27iNNEDPcYCXDiPJePFi79rHS7JEWVrhWYVYXSROGHV5GZULtmtO2Cg==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="OiNLtAEoTpfFfu9czIh9OHE9v4FTExG4IHS++VlmFKqg6YHscHPE/ut8CMu3wXp6j6QOJyqzSRCIMrEE8GnChQ==" /></div>
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+        Sign out
+      </button>
+</form>  </div>
+</div>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nzu/Fz0bWiERsOS0W0a7PyzUSZoLD0xJwDuj+7hjoXhPx3yy+yoUVvf6GH93rkoPTkIahHm3CiMJ0+fHj1pDOQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="32284977" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/andrejewski/periodic-table/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+            <a class="social-count js-social-count"
+              href="/andrejewski/periodic-table/watchers"
+              aria-label="4 users are watching this repository">
+              4
+            </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+      <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andrejewski/periodic-table/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JKxx5UrHJJzdhTU+zM6KIbn8Rg28GMZE8CRe2K5/fpabiBz/abVumbzpKuJwBhglrulg2hTyauKQ+C9Vcry/UA==" /></div>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar andrejewski/periodic-table"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/andrejewski/periodic-table/stargazers"
+           aria-label="26 users starred this repository">
+          26
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andrejewski/periodic-table/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="U4IAkOhfZuQWcs3LBAEOO0T6k3zNeryfwL92S5KDE/N9imOoE04zQbMNK652g4LbzBvpNGOwqddXcyGQW0oxtw==" /></div>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star andrejewski/periodic-table"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/andrejewski/periodic-table/stargazers"
+           aria-label="26 users starred this repository">
+          26
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andrejewski/periodic-table/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SOJlcCK5ttJcyZjJf2yTbJDAJr0OZvEKYloH829fttY/ylG7Xp3IcfVipRZe32BGYAcsz8LTyVbD5Lijjfln3w==" /></div>
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of andrejewski/periodic-table to your account"
+                aria-label="Fork your own copy of andrejewski/periodic-table to your account">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/andrejewski/periodic-table/network" class="social-count"
+       aria-label="14 users forked this repository">
+      14
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/andrejewski" class="url fn" rel="author">andrejewski</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/andrejewski/periodic-table" data-pjax="#js-repo-pjax-container">periodic-table</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/andrejewski/periodic-table" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /andrejewski/periodic-table" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/andrejewski/periodic-table/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /andrejewski/periodic-table/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">3</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/andrejewski/periodic-table/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /andrejewski/periodic-table/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/andrejewski/periodic-table/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /andrejewski/periodic-table/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a href="/andrejewski/periodic-table/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /andrejewski/periodic-table/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+    <div class="reponav-dropdown js-menu-container">
+      <button type="button" class="btn-link reponav-item reponav-dropdown js-menu-target " data-no-toggle aria-expanded="false" aria-haspopup="true">
+        Insights
+        <svg aria-hidden="true" class="octicon octicon-triangle-down v-align-middle text-gray" height="11" version="1.1" viewBox="0 0 12 16" width="8"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"/></svg>
+      </button>
+      <div class="dropdown-menu-content js-menu-content">
+        <div class="dropdown-menu dropdown-menu-sw">
+          <a class="dropdown-item" href="/andrejewski/periodic-table/pulse" data-skip-pjax>
+            <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+            Pulse
+          </a>
+          <a class="dropdown-item" href="/andrejewski/periodic-table/graphs" data-skip-pjax>
+            <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+            Graphs
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+
+<a href="/andrejewski/periodic-table/blob/cf0202293863d2db585663632c242c0d589ae94d/data.csv" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:4e7aa402156a9eb693f462dbd2436657 -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/andrejewski/periodic-table/blob/master/data.csv"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="BtnGroup float-right">
+    <a href="/andrejewski/periodic-table/find/master"
+          class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+          data-pjax
+          data-hotkey="t">
+      Find file
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+  </div>
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/andrejewski/periodic-table"><span>periodic-table</span></a></span></span><span class="separator">/</span><strong class="final-path">data.csv</strong>
+  </div>
+</div>
+
+
+
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/andrejewski/periodic-table/commit/a27e896b47298c98bd71bb5c77843a5e6d197224" data-pjax>
+          a27e896
+        </a>
+        <relative-time datetime="2017-04-27T17:17:32Z">Apr 28, 2017</relative-time>
+      </span>
+      <div>
+        <img alt="@madsfaerch" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/6967541?v=3&amp;s=40" width="20" />
+        <a href="/madsfaerch" class="user-mention" rel="contributor">madsfaerch</a>
+          <a href="/andrejewski/periodic-table/commit/a27e896b47298c98bd71bb5c77843a5e6d197224" class="message" data-pjax="true" title="delete period from electron configuration">delete period from electron configuration</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+        <strong>3</strong>
+         contributors
+      </button>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="madsfaerch" href="/andrejewski/periodic-table/commits/master/data.csv?author=madsfaerch"><img alt="@madsfaerch" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/6967541?v=3&amp;s=40" width="20" /> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="andrejewski" href="/andrejewski/periodic-table/commits/master/data.csv?author=andrejewski"><img alt="@andrejewski" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1660953?v=3&amp;s=40" width="20" /> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="dacornu" href="/andrejewski/periodic-table/commits/master/data.csv?author=dacornu"><img alt="@dacornu" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/16939367?v=3&amp;s=40" width="20" /> </a>
+
+
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@madsfaerch" height="24" src="https://avatars0.githubusercontent.com/u/6967541?v=3&amp;s=48" width="24" />
+            <a href="/madsfaerch">madsfaerch</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@andrejewski" height="24" src="https://avatars0.githubusercontent.com/u/1660953?v=3&amp;s=48" width="24" />
+            <a href="/andrejewski">andrejewski</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@dacornu" height="24" src="https://avatars1.githubusercontent.com/u/16939367?v=3&amp;s=48" width="24" />
+            <a href="/dacornu">dacornu</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a href="/andrejewski/periodic-table/raw/master/data.csv" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/andrejewski/periodic-table/blame/master/data.csv" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/andrejewski/periodic-table/commits/master/data.csv" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://desktop.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andrejewski/periodic-table/edit/master/data.csv" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rwaMYUBlv7ZwdM63Azx70JeLu3DGMgmRsIJkBxxJh+5r/m/Wqz9GSbcUaUfL1PJaFBTPBYeeUI4KslGWl3tEEg==" /></div>
+          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/andrejewski/periodic-table/delete/master/data.csv" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qCqyPHHJ4MNAjCs3DL5GhpUelyUiJ2V0Lhjd6qoZYJgXmGJFKvEdVY/21tnpJtp6glRNf2bUKCMPDGTUnv/ieg==" /></div>
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      120 lines (119 sloc)
+      <span class="file-info-divider"></span>
+    15.3 KB
+  </div>
+</div>
+
+  
+
+  <div itemprop="text" class="blob-wrapper data type-csv">
+      <div class="blob-interaction-bar">
+  <svg aria-hidden="true" class="octicon octicon-search" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+  <input type="text" name="filter" class="form-control js-csv-filter-field blob-filter" autocapitalize="off"
+         placeholder="Search this file…" aria-label="Search this file…">
+</div>
+
+<div class="markdown-body">
+  <table class="js-csv-data csv-data js-file-line-container">
+    <thead>
+      <tr id="LC1" class="js-file-line">
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <th>atomicNumber</th>
+        <th> symbol</th>
+        <th> name</th>
+        <th> atomicMass</th>
+        <th> cpkHexColor</th>
+        <th> electronicConfiguration</th>
+        <th> electronegativity</th>
+        <th> atomicRadius</th>
+        <th> ionRadius</th>
+        <th> vanDelWaalsRadius</th>
+        <th> ionizationEnergy</th>
+        <th> electronAffinity</th>
+        <th> oxidationStates</th>
+        <th> standardState</th>
+        <th> bondingType</th>
+        <th> meltingPoint</th>
+        <th> boilingPoint</th>
+        <th>density</th>
+        <th> groupBlock</th>
+        <th> yearDiscovered</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="LC2" class="js-file-line">
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td>1</td>
+        <td> H </td>
+        <td> Hydrogen</td>
+        <td> 1.00794(4)</td>
+        <td>FFFFFF</td>
+        <td>1s1 </td>
+        <td>2.2</td>
+        <td>37</td>
+        <td></td>
+        <td>120</td>
+        <td>1312</td>
+        <td>-73</td>
+        <td>-1, 1</td>
+        <td>gas</td>
+        <td>diatomic</td>
+        <td>14</td>
+        <td>20</td>
+        <td>0.0000899</td>
+        <td>nonmetal</td>
+        <td>1766</td>
+      </tr>
+      <tr id="LC3" class="js-file-line">
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td>2</td>
+        <td> He </td>
+        <td> Helium</td>
+        <td> 4.002602(2)</td>
+        <td>D9FFFF</td>
+        <td>1s2 </td>
+        <td></td>
+        <td>32</td>
+        <td></td>
+        <td>140</td>
+        <td>2372</td>
+        <td>0</td>
+        <td></td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td></td>
+        <td>4</td>
+        <td>0.0001785</td>
+        <td>noble gas</td>
+        <td>1868</td>
+      </tr>
+      <tr id="LC4" class="js-file-line">
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td>3</td>
+        <td> Li </td>
+        <td> Lithium</td>
+        <td> 6.941(2)</td>
+        <td>CC80FF</td>
+        <td>[He] 2s1 </td>
+        <td>0.98</td>
+        <td>134</td>
+        <td>76 (+1)</td>
+        <td>182</td>
+        <td>520</td>
+        <td>-60</td>
+        <td>1</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>454</td>
+        <td>1615</td>
+        <td>0.535</td>
+        <td>alkali metal</td>
+        <td>1817</td>
+      </tr>
+      <tr id="LC5" class="js-file-line">
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td>4</td>
+        <td> Be </td>
+        <td> Beryllium</td>
+        <td> 9.012182(3)</td>
+        <td>C2FF00</td>
+        <td>[He] 2s2 </td>
+        <td>1.57</td>
+        <td>90</td>
+        <td>45 (+2)</td>
+        <td></td>
+        <td>900</td>
+        <td>0</td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1560</td>
+        <td>2743</td>
+        <td>1.848</td>
+        <td>alkaline earth metal</td>
+        <td>1798</td>
+      </tr>
+      <tr id="LC6" class="js-file-line">
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td>5</td>
+        <td> B </td>
+        <td> Boron</td>
+        <td> 10.811(7)</td>
+        <td>FFB5B5</td>
+        <td>[He] 2s2 2p1 </td>
+        <td>2.04</td>
+        <td>82</td>
+        <td>27 (+3)</td>
+        <td></td>
+        <td>801</td>
+        <td>-27</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>covalent network</td>
+        <td>2348</td>
+        <td>4273</td>
+        <td>2.46</td>
+        <td>metalloid</td>
+        <td>1807</td>
+      </tr>
+      <tr id="LC7" class="js-file-line">
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td>6</td>
+        <td> C </td>
+        <td> Carbon</td>
+        <td> 12.0107(8)</td>
+        <td>909090</td>
+        <td>[He] 2s2 2p2 </td>
+        <td>2.55</td>
+        <td>77</td>
+        <td>16 (+4)</td>
+        <td>170</td>
+        <td>1087</td>
+        <td>-154</td>
+        <td>-4, -3, -2, -1, 1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>covalent network</td>
+        <td>3823</td>
+        <td>4300</td>
+        <td>2.26</td>
+        <td>nonmetal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC8" class="js-file-line">
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td>7</td>
+        <td> N </td>
+        <td> Nitrogen</td>
+        <td> 14.0067(2)</td>
+        <td>3050F8</td>
+        <td>[He] 2s2 2p3 </td>
+        <td>3.04</td>
+        <td>75</td>
+        <td>146 (-3)</td>
+        <td>155</td>
+        <td>1402</td>
+        <td>-7</td>
+        <td>-3, -2, -1, 1, 2, 3, 4, 5</td>
+        <td>gas</td>
+        <td>diatomic</td>
+        <td>63</td>
+        <td>77</td>
+        <td>0.001251</td>
+        <td>nonmetal</td>
+        <td>1772</td>
+      </tr>
+      <tr id="LC9" class="js-file-line">
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td>8</td>
+        <td> O </td>
+        <td> Oxygen</td>
+        <td> 15.9994(3)</td>
+        <td>FF0D0D</td>
+        <td>[He] 2s2 2p4 </td>
+        <td>3.44</td>
+        <td>73</td>
+        <td>140 (-2)</td>
+        <td>152</td>
+        <td>1314</td>
+        <td>-141</td>
+        <td>-2, -1, 1, 2</td>
+        <td>gas</td>
+        <td>diatomic</td>
+        <td>55</td>
+        <td>90</td>
+        <td>0.001429</td>
+        <td>nonmetal</td>
+        <td>1774</td>
+      </tr>
+      <tr id="LC10" class="js-file-line">
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td>9</td>
+        <td> F </td>
+        <td> Fluorine</td>
+        <td> 18.9984032(5)</td>
+        <td>90E050</td>
+        <td>[He] 2s2 2p5 </td>
+        <td>3.98</td>
+        <td>71</td>
+        <td>133 (-1)</td>
+        <td>147</td>
+        <td>1681</td>
+        <td>-328</td>
+        <td>-1</td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td>54</td>
+        <td>85</td>
+        <td>0.001696</td>
+        <td>halogen</td>
+        <td>1670</td>
+      </tr>
+      <tr id="LC11" class="js-file-line">
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td>10</td>
+        <td> Ne </td>
+        <td> Neon</td>
+        <td> 20.1797(6)</td>
+        <td>B3E3F5</td>
+        <td>[He] 2s2 2p6 </td>
+        <td></td>
+        <td>69</td>
+        <td></td>
+        <td>154</td>
+        <td>2081</td>
+        <td>0</td>
+        <td></td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td>25</td>
+        <td>27</td>
+        <td>0.0009</td>
+        <td>noble gas</td>
+        <td>1898</td>
+      </tr>
+      <tr id="LC12" class="js-file-line">
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td>11</td>
+        <td> Na </td>
+        <td> Sodium</td>
+        <td> 22.98976928(2)</td>
+        <td>AB5CF2</td>
+        <td>[Ne] 3s1 </td>
+        <td>0.93</td>
+        <td>154</td>
+        <td>102 (+1)</td>
+        <td>227</td>
+        <td>496</td>
+        <td>-53</td>
+        <td>-1, 1</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>371</td>
+        <td>1156</td>
+        <td>0.968</td>
+        <td>alkali metal</td>
+        <td>1807</td>
+      </tr>
+      <tr id="LC13" class="js-file-line">
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td>12</td>
+        <td> Mg </td>
+        <td> Magnesium</td>
+        <td> 24.3050(6)</td>
+        <td>8AFF00</td>
+        <td>[Ne] 3s2 </td>
+        <td>1.31</td>
+        <td>130</td>
+        <td>72 (+2)</td>
+        <td>173</td>
+        <td>738</td>
+        <td>0</td>
+        <td>1, 2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>923</td>
+        <td>1363</td>
+        <td>1.738</td>
+        <td>alkaline earth metal</td>
+        <td>1808</td>
+      </tr>
+      <tr id="LC14" class="js-file-line">
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td>13</td>
+        <td> Al </td>
+        <td> Aluminum</td>
+        <td> 26.9815386(8)</td>
+        <td>BFA6A6</td>
+        <td>[Ne] 3s2 3p1 </td>
+        <td>1.61</td>
+        <td>118</td>
+        <td>53.5 (+3)</td>
+        <td></td>
+        <td>578</td>
+        <td>-43</td>
+        <td>1, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>933</td>
+        <td>2792</td>
+        <td>2.7</td>
+        <td>metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC15" class="js-file-line">
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td>14</td>
+        <td> Si </td>
+        <td> Silicon</td>
+        <td> 28.0855(3)</td>
+        <td>F0C8A0</td>
+        <td>[Ne] 3s2 3p2 </td>
+        <td>1.9</td>
+        <td>111</td>
+        <td>40 (+4)</td>
+        <td>210</td>
+        <td>787</td>
+        <td>-134</td>
+        <td>-4, -3, -2, -1, 1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1687</td>
+        <td>3173</td>
+        <td>2.33</td>
+        <td>metalloid</td>
+        <td>1854</td>
+      </tr>
+      <tr id="LC16" class="js-file-line">
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td>15</td>
+        <td> P </td>
+        <td> Phosphorus</td>
+        <td> 30.973762(2)</td>
+        <td>FF8000</td>
+        <td>[Ne] 3s2 3p3 </td>
+        <td>2.19</td>
+        <td>106</td>
+        <td>44 (+3)</td>
+        <td>180</td>
+        <td>1012</td>
+        <td>-72</td>
+        <td>-3, -2, -1, 1, 2, 3, 4, 5</td>
+        <td>solid</td>
+        <td>covalent network</td>
+        <td>317</td>
+        <td>554</td>
+        <td>1.823</td>
+        <td>nonmetal</td>
+        <td>1669</td>
+      </tr>
+      <tr id="LC17" class="js-file-line">
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td>16</td>
+        <td> S </td>
+        <td> Sulfur</td>
+        <td> 32.065(5)</td>
+        <td>FFFF30</td>
+        <td>[Ne] 3s2 3p4 </td>
+        <td>2.58</td>
+        <td>102</td>
+        <td>184 (-2)</td>
+        <td>180</td>
+        <td>1000</td>
+        <td>-200</td>
+        <td>-2, -1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>covalent network</td>
+        <td>388</td>
+        <td>718</td>
+        <td>1.96</td>
+        <td>nonmetal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC18" class="js-file-line">
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td>17</td>
+        <td> Cl </td>
+        <td> Chlorine</td>
+        <td> 35.453(2)</td>
+        <td>1FF01F</td>
+        <td>[Ne] 3s2 3p5 </td>
+        <td>3.16</td>
+        <td>99</td>
+        <td>181 (-1)</td>
+        <td>175</td>
+        <td>1251</td>
+        <td>-349</td>
+        <td>-1, 1, 2, 3, 4, 5, 6, 7</td>
+        <td>gas</td>
+        <td>covalent network</td>
+        <td>172</td>
+        <td>239</td>
+        <td>0.003214</td>
+        <td>halogen</td>
+        <td>1774</td>
+      </tr>
+      <tr id="LC19" class="js-file-line">
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td>18</td>
+        <td> Ar </td>
+        <td> Argon</td>
+        <td> 39.948(1)</td>
+        <td>80D1E3</td>
+        <td>[Ne] 3s2 3p6 </td>
+        <td></td>
+        <td>97</td>
+        <td></td>
+        <td>188</td>
+        <td>1521</td>
+        <td>0</td>
+        <td></td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td>84</td>
+        <td>87</td>
+        <td>0.001784</td>
+        <td>noble gas</td>
+        <td>1894</td>
+      </tr>
+      <tr id="LC20" class="js-file-line">
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td>19</td>
+        <td> K </td>
+        <td> Potassium</td>
+        <td> 39.0983(1)</td>
+        <td>8F40D4</td>
+        <td>[Ar] 4s1 </td>
+        <td>0.82</td>
+        <td>196</td>
+        <td>138 (+1)</td>
+        <td>275</td>
+        <td>419</td>
+        <td>-48</td>
+        <td>1</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>337</td>
+        <td>1032</td>
+        <td>0.856</td>
+        <td>alkali metal</td>
+        <td>1807</td>
+      </tr>
+      <tr id="LC21" class="js-file-line">
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td>20</td>
+        <td> Ca </td>
+        <td> Calcium</td>
+        <td> 40.078(4)</td>
+        <td>3DFF00</td>
+        <td>[Ar] 4s2 </td>
+        <td>1</td>
+        <td>174</td>
+        <td>100 (+2)</td>
+        <td></td>
+        <td>590</td>
+        <td>-2</td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1115</td>
+        <td>1757</td>
+        <td>1.55</td>
+        <td>alkaline earth metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC22" class="js-file-line">
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td>21</td>
+        <td> Sc </td>
+        <td> Scandium</td>
+        <td> 44.955912(6)</td>
+        <td>E6E6E6</td>
+        <td>[Ar] 3d1 4s2 </td>
+        <td>1.36</td>
+        <td>144</td>
+        <td>74.5 (+3)</td>
+        <td></td>
+        <td>633</td>
+        <td>-18</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1814</td>
+        <td>3103</td>
+        <td>2.985</td>
+        <td>transition metal</td>
+        <td>1876</td>
+      </tr>
+      <tr id="LC23" class="js-file-line">
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td>22</td>
+        <td> Ti </td>
+        <td> Titanium</td>
+        <td> 47.867(1)</td>
+        <td>BFC2C7</td>
+        <td>[Ar] 3d2 4s2 </td>
+        <td>1.54</td>
+        <td>136</td>
+        <td>86 (+2)</td>
+        <td></td>
+        <td>659</td>
+        <td>-8</td>
+        <td>-1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1941</td>
+        <td>3560</td>
+        <td>4.507</td>
+        <td>transition metal</td>
+        <td>1791</td>
+      </tr>
+      <tr id="LC24" class="js-file-line">
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td>23</td>
+        <td> V </td>
+        <td> Vanadium</td>
+        <td> 50.9415(1)</td>
+        <td>A6A6AB</td>
+        <td>[Ar] 3d3 4s2 </td>
+        <td>1.63</td>
+        <td>125</td>
+        <td>79 (+2)</td>
+        <td></td>
+        <td>651</td>
+        <td>-51</td>
+        <td>-1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2183</td>
+        <td>3680</td>
+        <td>6.11</td>
+        <td>transition metal</td>
+        <td>1803</td>
+      </tr>
+      <tr id="LC25" class="js-file-line">
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td>24</td>
+        <td> Cr </td>
+        <td> Chromium</td>
+        <td> 51.9961(6)</td>
+        <td>8A99C7</td>
+        <td>[Ar] 3d5 4s1 </td>
+        <td>1.66</td>
+        <td>127</td>
+        <td>80 (+2*)</td>
+        <td></td>
+        <td>653</td>
+        <td>-64</td>
+        <td>-2, -1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2180</td>
+        <td>2944</td>
+        <td>7.14</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC26" class="js-file-line">
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td>25</td>
+        <td> Mn </td>
+        <td> Manganese</td>
+        <td> 54.938045(5)</td>
+        <td>9C7AC7</td>
+        <td>[Ar] 3d5 4s2 </td>
+        <td>1.55</td>
+        <td>139</td>
+        <td>67 (+2)</td>
+        <td></td>
+        <td>717</td>
+        <td>0</td>
+        <td>-3, -2, -1, 1, 2, 3, 4, 5, 6, 7</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1519</td>
+        <td>2334</td>
+        <td>7.47</td>
+        <td>transition metal</td>
+        <td>1774</td>
+      </tr>
+      <tr id="LC27" class="js-file-line">
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td>26</td>
+        <td> Fe </td>
+        <td> Iron</td>
+        <td> 55.845(2)</td>
+        <td>E06633</td>
+        <td>[Ar] 3d6 4s2 </td>
+        <td>1.83</td>
+        <td>125</td>
+        <td>78 (+2*)</td>
+        <td></td>
+        <td>763</td>
+        <td>-16</td>
+        <td>-2, -1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1811</td>
+        <td>3134</td>
+        <td>7.874</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC28" class="js-file-line">
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td>27</td>
+        <td> Co </td>
+        <td> Cobalt</td>
+        <td> 58.933195(5)</td>
+        <td>F090A0</td>
+        <td>[Ar] 3d7 4s2 </td>
+        <td>1.88</td>
+        <td>126</td>
+        <td>74.5 (+2*)</td>
+        <td></td>
+        <td>760</td>
+        <td>-64</td>
+        <td>-1, 1, 2, 3, 4, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1768</td>
+        <td>3200</td>
+        <td>8.9</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC29" class="js-file-line">
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td>28</td>
+        <td> Ni </td>
+        <td> Nickel</td>
+        <td> 58.6934(4)</td>
+        <td>50D050</td>
+        <td>[Ar] 3d8 4s2 </td>
+        <td>1.91</td>
+        <td>121</td>
+        <td>69 (+2)</td>
+        <td>163</td>
+        <td>737</td>
+        <td>-112</td>
+        <td>-1, 1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1728</td>
+        <td>3186</td>
+        <td>8.908</td>
+        <td>transition metal</td>
+        <td>1751</td>
+      </tr>
+      <tr id="LC30" class="js-file-line">
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td>29</td>
+        <td> Cu </td>
+        <td> Copper</td>
+        <td> 63.546(3)</td>
+        <td>C88033</td>
+        <td>[Ar] 3d10 4s1 </td>
+        <td>1.9</td>
+        <td>138</td>
+        <td>77 (+1)</td>
+        <td>140</td>
+        <td>746</td>
+        <td>-118</td>
+        <td>1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1358</td>
+        <td>3200</td>
+        <td>8.92</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC31" class="js-file-line">
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td>30</td>
+        <td> Zn </td>
+        <td> Zinc</td>
+        <td> 65.38(2)</td>
+        <td>7D80B0</td>
+        <td>[Ar] 3d10 4s2 </td>
+        <td>1.65</td>
+        <td>131</td>
+        <td>74 (+2)</td>
+        <td>139</td>
+        <td>906</td>
+        <td>0</td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>693</td>
+        <td>1180</td>
+        <td>7.14</td>
+        <td>transition metal</td>
+        <td>1746</td>
+      </tr>
+      <tr id="LC32" class="js-file-line">
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td>31</td>
+        <td> Ga </td>
+        <td> Gallium</td>
+        <td> 69.723(1)</td>
+        <td>C28F8F</td>
+        <td>[Ar] 3d10 4s2 4p1 </td>
+        <td>1.81</td>
+        <td>126</td>
+        <td>62 (+3)</td>
+        <td>187</td>
+        <td>579</td>
+        <td>-29</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>303</td>
+        <td>2477</td>
+        <td>5.904</td>
+        <td>metal</td>
+        <td>1875</td>
+      </tr>
+      <tr id="LC33" class="js-file-line">
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td>32</td>
+        <td> Ge </td>
+        <td> Germanium</td>
+        <td> 72.64(1)</td>
+        <td>668F8F</td>
+        <td>[Ar] 3d10 4s2 4p2 </td>
+        <td>2.01</td>
+        <td>122</td>
+        <td>73 (+2)</td>
+        <td></td>
+        <td>762</td>
+        <td>-119</td>
+        <td>-4, 1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1211</td>
+        <td>3093</td>
+        <td>5.323</td>
+        <td>metalloid</td>
+        <td>1886</td>
+      </tr>
+      <tr id="LC34" class="js-file-line">
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td>33</td>
+        <td> As </td>
+        <td> Arsenic</td>
+        <td> 74.92160(2)</td>
+        <td>BD80E3</td>
+        <td>[Ar] 3d10 4s2 4p3 </td>
+        <td>2.18</td>
+        <td>119</td>
+        <td>58 (+3)</td>
+        <td>185</td>
+        <td>947</td>
+        <td>-78</td>
+        <td>-3, 2, 3, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1090</td>
+        <td>887</td>
+        <td>5.727</td>
+        <td>metalloid</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC35" class="js-file-line">
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td>34</td>
+        <td> Se </td>
+        <td> Selenium</td>
+        <td> 78.96(3)</td>
+        <td>FFA100</td>
+        <td>[Ar] 3d10 4s2 4p4 </td>
+        <td>2.55</td>
+        <td>116</td>
+        <td>198 (-2)</td>
+        <td>190</td>
+        <td>941</td>
+        <td>-195</td>
+        <td>-2, 2, 4, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>494</td>
+        <td>958</td>
+        <td>4.819</td>
+        <td>nonmetal</td>
+        <td>1817</td>
+      </tr>
+      <tr id="LC36" class="js-file-line">
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td>35</td>
+        <td> Br </td>
+        <td> Bromine</td>
+        <td> 79.904(1)</td>
+        <td>A62929</td>
+        <td>[Ar] 3d10 4s2 4p5 </td>
+        <td>2.96</td>
+        <td>114</td>
+        <td>196 (-1)</td>
+        <td>185</td>
+        <td>1140</td>
+        <td>-325</td>
+        <td>-1, 1, 3, 4, 5, 7</td>
+        <td>liquid</td>
+        <td>covalent network</td>
+        <td>266</td>
+        <td>332</td>
+        <td>3.12</td>
+        <td>halogen</td>
+        <td>1826</td>
+      </tr>
+      <tr id="LC37" class="js-file-line">
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td>36</td>
+        <td> Kr </td>
+        <td> Krypton</td>
+        <td> 83.798(2)</td>
+        <td>5CB8D1</td>
+        <td>[Ar] 3d10 4s2 4p6 </td>
+        <td></td>
+        <td>110</td>
+        <td></td>
+        <td>202</td>
+        <td>1351</td>
+        <td>0</td>
+        <td>2</td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td>116</td>
+        <td>120</td>
+        <td>0.00375</td>
+        <td>noble gas</td>
+        <td>1898</td>
+      </tr>
+      <tr id="LC38" class="js-file-line">
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td>37</td>
+        <td> Rb </td>
+        <td> Rubidium</td>
+        <td> 85.4678(3)</td>
+        <td>702EB0</td>
+        <td>[Kr] 5s1 </td>
+        <td>0.82</td>
+        <td>211</td>
+        <td>152 (+1)</td>
+        <td></td>
+        <td>403</td>
+        <td>-47</td>
+        <td>1</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>312</td>
+        <td>961</td>
+        <td>1.532</td>
+        <td>alkali metal</td>
+        <td>1861</td>
+      </tr>
+      <tr id="LC39" class="js-file-line">
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td>38</td>
+        <td> Sr </td>
+        <td> Strontium</td>
+        <td> 87.62(1)</td>
+        <td>00FF00</td>
+        <td>[Kr] 5s2 </td>
+        <td>0.95</td>
+        <td>192</td>
+        <td>118 (+2)</td>
+        <td></td>
+        <td>550</td>
+        <td>-5</td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1050</td>
+        <td>1655</td>
+        <td>2.63</td>
+        <td>alkaline earth metal</td>
+        <td>1790</td>
+      </tr>
+      <tr id="LC40" class="js-file-line">
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td>39</td>
+        <td> Y </td>
+        <td> Yttrium</td>
+        <td> 88.90585(2)</td>
+        <td>94FFFF</td>
+        <td>[Kr] 4d1 5s2 </td>
+        <td>1.22</td>
+        <td>162</td>
+        <td>90 (+3)</td>
+        <td></td>
+        <td>600</td>
+        <td>-30</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1799</td>
+        <td>3618</td>
+        <td>4.472</td>
+        <td>transition metal</td>
+        <td>1794</td>
+      </tr>
+      <tr id="LC41" class="js-file-line">
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td>40</td>
+        <td> Zr </td>
+        <td> Zirconium</td>
+        <td> 91.224(2)</td>
+        <td>94E0E0</td>
+        <td>[Kr] 4d2 5s2 </td>
+        <td>1.33</td>
+        <td>148</td>
+        <td>72 (+4)</td>
+        <td></td>
+        <td>640</td>
+        <td>-41</td>
+        <td>1, 2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2128</td>
+        <td>4682</td>
+        <td>6.511</td>
+        <td>transition metal</td>
+        <td>1789</td>
+      </tr>
+      <tr id="LC42" class="js-file-line">
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td>41</td>
+        <td> Nb </td>
+        <td> Niobium</td>
+        <td> 92.90638(2)</td>
+        <td>73C2C9</td>
+        <td>[Kr] 4d4 5s1 </td>
+        <td>1.6</td>
+        <td>137</td>
+        <td>72 (+3)</td>
+        <td></td>
+        <td>652</td>
+        <td>-86</td>
+        <td>-1, 2, 3, 4, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2750</td>
+        <td>5017</td>
+        <td>8.57</td>
+        <td>transition metal</td>
+        <td>1801</td>
+      </tr>
+      <tr id="LC43" class="js-file-line">
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td>42</td>
+        <td> Mo </td>
+        <td> Molybdenum</td>
+        <td> 95.96(2)</td>
+        <td>54B5B5</td>
+        <td>[Kr] 4d5 5s1 </td>
+        <td>2.16</td>
+        <td>145</td>
+        <td>69 (+3)</td>
+        <td></td>
+        <td>684</td>
+        <td>-72</td>
+        <td>-2, -1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2896</td>
+        <td>4912</td>
+        <td>10.28</td>
+        <td>transition metal</td>
+        <td>1778</td>
+      </tr>
+      <tr id="LC44" class="js-file-line">
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td>43</td>
+        <td> Tc </td>
+        <td> Technetium</td>
+        <td> [98]</td>
+        <td>3B9E9E</td>
+        <td>[Kr] 4d5 5s2 </td>
+        <td>1.9</td>
+        <td>156</td>
+        <td>64.5 (+4)</td>
+        <td></td>
+        <td>702</td>
+        <td>-53</td>
+        <td>-3, -1, 1, 2, 3, 4, 5, 6, 7</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2430</td>
+        <td>4538</td>
+        <td>11.5</td>
+        <td>transition metal</td>
+        <td>1937</td>
+      </tr>
+      <tr id="LC45" class="js-file-line">
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td>44</td>
+        <td> Ru </td>
+        <td> Ruthenium</td>
+        <td> 101.07(2)</td>
+        <td>248F8F</td>
+        <td>[Kr] 4d7 5s1 </td>
+        <td>2.2</td>
+        <td>126</td>
+        <td>68 (+3)</td>
+        <td></td>
+        <td>710</td>
+        <td>-101</td>
+        <td>-2, 1, 2, 3, 4, 5, 6, 7, 8</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2607</td>
+        <td>4423</td>
+        <td>12.37</td>
+        <td>transition metal</td>
+        <td>1827</td>
+      </tr>
+      <tr id="LC46" class="js-file-line">
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td>45</td>
+        <td> Rh </td>
+        <td> Rhodium</td>
+        <td> 102.90550(2)</td>
+        <td>0A7D8C</td>
+        <td>[Kr] 4d8 5s1 </td>
+        <td>2.28</td>
+        <td>135</td>
+        <td>66.5 (+3)</td>
+        <td></td>
+        <td>720</td>
+        <td>-110</td>
+        <td>-1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2237</td>
+        <td>3968</td>
+        <td>12.45</td>
+        <td>transition metal</td>
+        <td>1803</td>
+      </tr>
+      <tr id="LC47" class="js-file-line">
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td>46</td>
+        <td> Pd </td>
+        <td> Palladium</td>
+        <td> 106.42(1)</td>
+        <td>6985</td>
+        <td>[Kr] 4d10 </td>
+        <td>2.2</td>
+        <td>131</td>
+        <td>59 (+1)</td>
+        <td>163</td>
+        <td>804</td>
+        <td>-54</td>
+        <td>2, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1828</td>
+        <td>3236</td>
+        <td>12.023</td>
+        <td>transition metal</td>
+        <td>1803</td>
+      </tr>
+      <tr id="LC48" class="js-file-line">
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td>47</td>
+        <td> Ag </td>
+        <td> Silver</td>
+        <td> 107.8682(2)</td>
+        <td>C0C0C0</td>
+        <td>[Kr] 4d10 5s1 </td>
+        <td>1.93</td>
+        <td>153</td>
+        <td>115 (+1)</td>
+        <td>172</td>
+        <td>731</td>
+        <td>-126</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1235</td>
+        <td>2435</td>
+        <td>10.49</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC49" class="js-file-line">
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td>48</td>
+        <td> Cd </td>
+        <td> Cadmium</td>
+        <td> 112.411(8)</td>
+        <td>FFD98F</td>
+        <td>[Kr] 4d10 5s2 </td>
+        <td>1.69</td>
+        <td>148</td>
+        <td>95 (+2)</td>
+        <td>158</td>
+        <td>868</td>
+        <td>0</td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>594</td>
+        <td>1040</td>
+        <td>8.65</td>
+        <td>transition metal</td>
+        <td>1817</td>
+      </tr>
+      <tr id="LC50" class="js-file-line">
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td>49</td>
+        <td> In </td>
+        <td> Indium</td>
+        <td> 114.818(3)</td>
+        <td>A67573</td>
+        <td>[Kr] 4d10 5s2 5p1 </td>
+        <td>1.78</td>
+        <td>144</td>
+        <td>80 (+3)</td>
+        <td>193</td>
+        <td>558</td>
+        <td>-29</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>430</td>
+        <td>2345</td>
+        <td>7.31</td>
+        <td>metal</td>
+        <td>1863</td>
+      </tr>
+      <tr id="LC51" class="js-file-line">
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td>50</td>
+        <td> Sn </td>
+        <td> Tin</td>
+        <td> 118.710(7)</td>
+        <td>668080</td>
+        <td>[Kr] 4d10 5s2 5p2 </td>
+        <td>1.96</td>
+        <td>141</td>
+        <td>112 (+2)</td>
+        <td>217</td>
+        <td>709</td>
+        <td>-107</td>
+        <td>-4, 2, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>505</td>
+        <td>2875</td>
+        <td>7.31</td>
+        <td>metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC52" class="js-file-line">
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td>51</td>
+        <td> Sb </td>
+        <td> Antimony</td>
+        <td> 121.760(1)</td>
+        <td>9E63B5</td>
+        <td>[Kr] 4d10 5s2 5p3 </td>
+        <td>2.05</td>
+        <td>138</td>
+        <td>76 (+3)</td>
+        <td></td>
+        <td>834</td>
+        <td>-103</td>
+        <td>-3, 3, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>904</td>
+        <td>1860</td>
+        <td>6.697</td>
+        <td>metalloid</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC53" class="js-file-line">
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td>52</td>
+        <td> Te </td>
+        <td> Tellurium</td>
+        <td> 127.60(3)</td>
+        <td>D47A00</td>
+        <td>[Kr] 4d10 5s2 5p4 </td>
+        <td>2.1</td>
+        <td>135</td>
+        <td>221 (-2)</td>
+        <td>206</td>
+        <td>869</td>
+        <td>-190</td>
+        <td>-2, 2, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>723</td>
+        <td>1261</td>
+        <td>6.24</td>
+        <td>metalloid</td>
+        <td>1782</td>
+      </tr>
+      <tr id="LC54" class="js-file-line">
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td>53</td>
+        <td> I </td>
+        <td> Iodine</td>
+        <td> 126.90447(3)</td>
+        <td>940094</td>
+        <td>[Kr] 4d10 5s2 5p5 </td>
+        <td>2.66</td>
+        <td>133</td>
+        <td>220 (-1)</td>
+        <td>198</td>
+        <td>1008</td>
+        <td>-295</td>
+        <td>-1, 1, 3, 5, 7</td>
+        <td>solid</td>
+        <td>covalent network</td>
+        <td>387</td>
+        <td>457</td>
+        <td>4.94</td>
+        <td>halogen</td>
+        <td>1811</td>
+      </tr>
+      <tr id="LC55" class="js-file-line">
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td>54</td>
+        <td> Xe </td>
+        <td> Xenon</td>
+        <td> 131.293(6)</td>
+        <td>429EB0</td>
+        <td>[Kr] 4d10 5s2 5p6 </td>
+        <td></td>
+        <td>130</td>
+        <td>48 (+8)</td>
+        <td>216</td>
+        <td>1170</td>
+        <td>0</td>
+        <td>2, 4, 6, 8</td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td>161</td>
+        <td>165</td>
+        <td>0.0059</td>
+        <td>noble gas</td>
+        <td>1898</td>
+      </tr>
+      <tr id="LC56" class="js-file-line">
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td>55</td>
+        <td> Cs </td>
+        <td> Cesium</td>
+        <td> 132.9054519(2)</td>
+        <td>57178F</td>
+        <td>[Xe] 6s1 </td>
+        <td>0.79</td>
+        <td>225</td>
+        <td>167 (+1)</td>
+        <td></td>
+        <td>376</td>
+        <td>-46</td>
+        <td>1</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>302</td>
+        <td>944</td>
+        <td>1.879</td>
+        <td>alkali metal</td>
+        <td>1860</td>
+      </tr>
+      <tr id="LC57" class="js-file-line">
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td>56</td>
+        <td> Ba </td>
+        <td> Barium</td>
+        <td> 137.327(7)</td>
+        <td>00C900</td>
+        <td>[Xe] 6s2 </td>
+        <td>0.89</td>
+        <td>198</td>
+        <td>135 (+2)</td>
+        <td></td>
+        <td>503</td>
+        <td>-14</td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1000</td>
+        <td>2143</td>
+        <td>3.51</td>
+        <td>alkaline earth metal</td>
+        <td>1808</td>
+      </tr>
+      <tr id="LC58" class="js-file-line">
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td>57</td>
+        <td> La </td>
+        <td> Lanthanum</td>
+        <td> 138.90547(7)</td>
+        <td>70D4FF</td>
+        <td>[Xe] 5d1 6s2 </td>
+        <td>1.1</td>
+        <td>169</td>
+        <td>103.2 (+3)</td>
+        <td></td>
+        <td>538</td>
+        <td>-48</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1193</td>
+        <td>3737</td>
+        <td>6.146</td>
+        <td>lanthanoid</td>
+        <td>1839</td>
+      </tr>
+      <tr id="LC59" class="js-file-line">
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td>58</td>
+        <td> Ce </td>
+        <td> Cerium</td>
+        <td> 140.116(1)</td>
+        <td>FFFFC7</td>
+        <td>[Xe] 4f1 5d1 6s2 </td>
+        <td>1.12</td>
+        <td></td>
+        <td>102 (+3)</td>
+        <td></td>
+        <td>534</td>
+        <td>-50</td>
+        <td>2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1071</td>
+        <td>3633</td>
+        <td>6.689</td>
+        <td>lanthanoid</td>
+        <td>1803</td>
+      </tr>
+      <tr id="LC60" class="js-file-line">
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td>59</td>
+        <td> Pr </td>
+        <td> Praseodymium</td>
+        <td> 140.90765(2)</td>
+        <td>D9FFC7</td>
+        <td>[Xe] 4f3 6s2 </td>
+        <td>1.13</td>
+        <td></td>
+        <td>99 (+3)</td>
+        <td></td>
+        <td>527</td>
+        <td>-50</td>
+        <td>2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1204</td>
+        <td>3563</td>
+        <td>6.64</td>
+        <td>lanthanoid</td>
+        <td>1885</td>
+      </tr>
+      <tr id="LC61" class="js-file-line">
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td>60</td>
+        <td> Nd </td>
+        <td> Neodymium</td>
+        <td> 144.242(3)</td>
+        <td>C7FFC7</td>
+        <td>[Xe] 4f4 6s2 </td>
+        <td>1.14</td>
+        <td></td>
+        <td>129 (+2)</td>
+        <td></td>
+        <td>533</td>
+        <td>-50</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1294</td>
+        <td>3373</td>
+        <td>7.01</td>
+        <td>lanthanoid</td>
+        <td>1885</td>
+      </tr>
+      <tr id="LC62" class="js-file-line">
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td>61</td>
+        <td> Pm </td>
+        <td> Promethium</td>
+        <td> [145]</td>
+        <td>A3FFC7</td>
+        <td>[Xe] 4f5 6s2 </td>
+        <td>1.13</td>
+        <td></td>
+        <td>97 (+3)</td>
+        <td></td>
+        <td>540</td>
+        <td>-50</td>
+        <td>3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1373</td>
+        <td>3273</td>
+        <td>7.264</td>
+        <td>lanthanoid</td>
+        <td>1947</td>
+      </tr>
+      <tr id="LC63" class="js-file-line">
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td>62</td>
+        <td> Sm </td>
+        <td> Samarium</td>
+        <td> 150.36(2)</td>
+        <td>8FFFC7</td>
+        <td>[Xe] 4f6 6s2 </td>
+        <td>1.17</td>
+        <td></td>
+        <td>122 (+2)</td>
+        <td></td>
+        <td>545</td>
+        <td>-50</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1345</td>
+        <td>2076</td>
+        <td>7.353</td>
+        <td>lanthanoid</td>
+        <td>1853</td>
+      </tr>
+      <tr id="LC64" class="js-file-line">
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td>63</td>
+        <td> Eu </td>
+        <td> Europium</td>
+        <td> 151.964(1)</td>
+        <td>61FFC7</td>
+        <td>[Xe] 4f7 6s2 </td>
+        <td>1.2</td>
+        <td></td>
+        <td>117 (+2)</td>
+        <td></td>
+        <td>547</td>
+        <td>-50</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1095</td>
+        <td>1800</td>
+        <td>5.244</td>
+        <td>lanthanoid</td>
+        <td>1901</td>
+      </tr>
+      <tr id="LC65" class="js-file-line">
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td>64</td>
+        <td> Gd </td>
+        <td> Gadolinium</td>
+        <td> 157.25(3)</td>
+        <td>45FFC7</td>
+        <td>[Xe] 4f7 5d1 6s2 </td>
+        <td>1.2</td>
+        <td></td>
+        <td>93.8 (+3)</td>
+        <td></td>
+        <td>593</td>
+        <td>-50</td>
+        <td>1, 2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1586</td>
+        <td>3523</td>
+        <td>7.901</td>
+        <td>lanthanoid</td>
+        <td>1880</td>
+      </tr>
+      <tr id="LC66" class="js-file-line">
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td>65</td>
+        <td> Tb </td>
+        <td> Terbium</td>
+        <td> 158.92535(2)</td>
+        <td>30FFC7</td>
+        <td>[Xe] 4f9 6s2 </td>
+        <td>1.2</td>
+        <td></td>
+        <td>92.3 (+3)</td>
+        <td></td>
+        <td>566</td>
+        <td>-50</td>
+        <td>1, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1629</td>
+        <td>3503</td>
+        <td>8.219</td>
+        <td>lanthanoid</td>
+        <td>1843</td>
+      </tr>
+      <tr id="LC67" class="js-file-line">
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td>66</td>
+        <td> Dy </td>
+        <td> Dysprosium</td>
+        <td> 162.500(1)</td>
+        <td>1FFFC7</td>
+        <td>[Xe] 4f10 6s2 </td>
+        <td>1.22</td>
+        <td></td>
+        <td>107 (+2)</td>
+        <td></td>
+        <td>573</td>
+        <td>-50</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1685</td>
+        <td>2840</td>
+        <td>8.551</td>
+        <td>lanthanoid</td>
+        <td>1886</td>
+      </tr>
+      <tr id="LC68" class="js-file-line">
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td>67</td>
+        <td> Ho </td>
+        <td> Holmium</td>
+        <td> 164.93032(2)</td>
+        <td>00FF9C</td>
+        <td>[Xe] 4f11 6s2 </td>
+        <td>1.23</td>
+        <td></td>
+        <td>90.1 (+3)</td>
+        <td></td>
+        <td>581</td>
+        <td>-50</td>
+        <td>3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1747</td>
+        <td>2973</td>
+        <td>8.795</td>
+        <td>lanthanoid</td>
+        <td>1878</td>
+      </tr>
+      <tr id="LC69" class="js-file-line">
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td>68</td>
+        <td> Er </td>
+        <td> Erbium</td>
+        <td> 167.259(3)</td>
+        <td>0.00E+00</td>
+        <td>[Xe] 4f12 6s2 </td>
+        <td>1.24</td>
+        <td></td>
+        <td>89 (+3)</td>
+        <td></td>
+        <td>589</td>
+        <td>-50</td>
+        <td>3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1770</td>
+        <td>3141</td>
+        <td>9.066</td>
+        <td>lanthanoid</td>
+        <td>1842</td>
+      </tr>
+      <tr id="LC70" class="js-file-line">
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td>69</td>
+        <td> Tm </td>
+        <td> Thulium</td>
+        <td> 168.93421(2)</td>
+        <td>00D452</td>
+        <td>[Xe] 4f13 6s2 </td>
+        <td>1.25</td>
+        <td></td>
+        <td>103 (+2)</td>
+        <td></td>
+        <td>597</td>
+        <td>-50</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1818</td>
+        <td>2223</td>
+        <td>9.321</td>
+        <td>lanthanoid</td>
+        <td>1879</td>
+      </tr>
+      <tr id="LC71" class="js-file-line">
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td>70</td>
+        <td> Yb </td>
+        <td> Ytterbium</td>
+        <td> 173.054(5)</td>
+        <td>00BF38</td>
+        <td>[Xe] 4f14 6s2 </td>
+        <td>1.1</td>
+        <td></td>
+        <td>102 (+2)</td>
+        <td></td>
+        <td>603</td>
+        <td>-50</td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1092</td>
+        <td>1469</td>
+        <td>6.57</td>
+        <td>lanthanoid</td>
+        <td>1878</td>
+      </tr>
+      <tr id="LC72" class="js-file-line">
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td>71</td>
+        <td> Lu </td>
+        <td> Lutetium</td>
+        <td> 174.9668(1)</td>
+        <td>00AB24</td>
+        <td>[Xe] 4f14 5d1 6s2 </td>
+        <td>1.27</td>
+        <td>160</td>
+        <td>86.1 (+3)</td>
+        <td></td>
+        <td>524</td>
+        <td>-50</td>
+        <td>3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1936</td>
+        <td>3675</td>
+        <td>9.841</td>
+        <td>lanthanoid</td>
+        <td>1907</td>
+      </tr>
+      <tr id="LC73" class="js-file-line">
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td>72</td>
+        <td> Hf </td>
+        <td> Hafnium</td>
+        <td> 178.49(2)</td>
+        <td>4DC2FF</td>
+        <td>[Xe] 4f14 5d2 6s2 </td>
+        <td>1.3</td>
+        <td>150</td>
+        <td>71 (+4)</td>
+        <td></td>
+        <td>659</td>
+        <td>0</td>
+        <td>2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2506</td>
+        <td>4876</td>
+        <td>13.31</td>
+        <td>transition metal</td>
+        <td>1923</td>
+      </tr>
+      <tr id="LC74" class="js-file-line">
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td>73</td>
+        <td> Ta </td>
+        <td> Tantalum</td>
+        <td> 180.94788(2)</td>
+        <td>4DA6FF</td>
+        <td>[Xe] 4f14 5d3 6s2 </td>
+        <td>1.5</td>
+        <td>138</td>
+        <td>72 (+3)</td>
+        <td></td>
+        <td>761</td>
+        <td>-31</td>
+        <td>-1, 2, 3, 4, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>3290</td>
+        <td>5731</td>
+        <td>16.65</td>
+        <td>transition metal</td>
+        <td>1802</td>
+      </tr>
+      <tr id="LC75" class="js-file-line">
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td>74</td>
+        <td> W </td>
+        <td> Tungsten</td>
+        <td> 183.84(1)</td>
+        <td>2194D6</td>
+        <td>[Xe] 4f14 5d4 6s2 </td>
+        <td>2.36</td>
+        <td>146</td>
+        <td>66 (+4)</td>
+        <td></td>
+        <td>770</td>
+        <td>-79</td>
+        <td>-2, -1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>3695</td>
+        <td>5828</td>
+        <td>19.25</td>
+        <td>transition metal</td>
+        <td>1783</td>
+      </tr>
+      <tr id="LC76" class="js-file-line">
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td>75</td>
+        <td> Re </td>
+        <td> Rhenium</td>
+        <td> 186.207(1)</td>
+        <td>267DAB</td>
+        <td>[Xe] 4f14 5d5 6s2 </td>
+        <td>1.9</td>
+        <td>159</td>
+        <td>63 (+4)</td>
+        <td></td>
+        <td>760</td>
+        <td>-15</td>
+        <td>-3, -1, 1, 2, 3, 4, 5, 6, 7</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>3459</td>
+        <td>5869</td>
+        <td>21.02</td>
+        <td>transition metal</td>
+        <td>1925</td>
+      </tr>
+      <tr id="LC77" class="js-file-line">
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td>76</td>
+        <td> Os </td>
+        <td> Osmium</td>
+        <td> 190.23(3)</td>
+        <td>266696</td>
+        <td>[Xe] 4f14 5d6 6s2 </td>
+        <td>2.2</td>
+        <td>128</td>
+        <td>63 (+4)</td>
+        <td></td>
+        <td>840</td>
+        <td>-106</td>
+        <td>-2, -1, 1, 2, 3, 4, 5, 6, 7, 8</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>3306</td>
+        <td>5285</td>
+        <td>22.61</td>
+        <td>transition metal</td>
+        <td>1803</td>
+      </tr>
+      <tr id="LC78" class="js-file-line">
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td>77</td>
+        <td> Ir </td>
+        <td> Iridium</td>
+        <td> 192.217(3)</td>
+        <td>175487</td>
+        <td>[Xe] 4f14 5d7 6s2 </td>
+        <td>2.2</td>
+        <td>137</td>
+        <td>68 (+3)</td>
+        <td></td>
+        <td>880</td>
+        <td>-151</td>
+        <td>-3, -1, 1, 2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2739</td>
+        <td>4701</td>
+        <td>22.65</td>
+        <td>transition metal</td>
+        <td>1803</td>
+      </tr>
+      <tr id="LC79" class="js-file-line">
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td>78</td>
+        <td> Pt </td>
+        <td> Platinum</td>
+        <td> 195.084(9)</td>
+        <td>D0D0E0</td>
+        <td>[Xe] 4f14 5d9 6s1 </td>
+        <td>2.28</td>
+        <td>128</td>
+        <td>86 (+2)</td>
+        <td>175</td>
+        <td>870</td>
+        <td>-205</td>
+        <td>2, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2041</td>
+        <td>4098</td>
+        <td>21.09</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC80" class="js-file-line">
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td>79</td>
+        <td> Au </td>
+        <td> Gold</td>
+        <td> 196.966569(4)</td>
+        <td>FFD123</td>
+        <td>[Xe] 4f14 5d10 6s1 </td>
+        <td>2.54</td>
+        <td>144</td>
+        <td>137 (+1)</td>
+        <td>166</td>
+        <td>890</td>
+        <td>-223</td>
+        <td>-1, 1, 2, 3, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1337</td>
+        <td>3129</td>
+        <td>19.3</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC81" class="js-file-line">
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td>80</td>
+        <td> Hg </td>
+        <td> Mercury</td>
+        <td> 200.59(2)</td>
+        <td>B8B8D0</td>
+        <td>[Xe] 4f14 5d10 6s2 </td>
+        <td>2</td>
+        <td>149</td>
+        <td>119 (+1)</td>
+        <td>155</td>
+        <td>1007</td>
+        <td>0</td>
+        <td>1, 2, 4</td>
+        <td>liquid</td>
+        <td>metallic</td>
+        <td>234</td>
+        <td>630</td>
+        <td>13.534</td>
+        <td>transition metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC82" class="js-file-line">
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td>81</td>
+        <td> Tl </td>
+        <td> Thallium</td>
+        <td> 204.3833(2)</td>
+        <td>A6544D</td>
+        <td>[Xe] 4f14 5d10 6s2 6p1 </td>
+        <td>2.04</td>
+        <td>148</td>
+        <td>150 (+1)</td>
+        <td>196</td>
+        <td>589</td>
+        <td>-19</td>
+        <td>1, 3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>577</td>
+        <td>1746</td>
+        <td>11.85</td>
+        <td>metal</td>
+        <td>1861</td>
+      </tr>
+      <tr id="LC83" class="js-file-line">
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td>82</td>
+        <td> Pb </td>
+        <td> Lead</td>
+        <td> 207.2(1)</td>
+        <td>575961</td>
+        <td>[Xe] 4f14 5d10 6s2 6p2 </td>
+        <td>2.33</td>
+        <td>147</td>
+        <td>119 (+2)</td>
+        <td>202</td>
+        <td>716</td>
+        <td>-35</td>
+        <td>-4, 2, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>601</td>
+        <td>2022</td>
+        <td>11.34</td>
+        <td>metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC84" class="js-file-line">
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td>83</td>
+        <td> Bi </td>
+        <td> Bismuth</td>
+        <td> 208.98040(1)</td>
+        <td>9E4FB5</td>
+        <td>[Xe] 4f14 5d10 6s2 6p3 </td>
+        <td>2.02</td>
+        <td>146</td>
+        <td>103 (+3)</td>
+        <td></td>
+        <td>703</td>
+        <td>-91</td>
+        <td>-3, 3, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>544</td>
+        <td>1837</td>
+        <td>9.78</td>
+        <td>metal</td>
+        <td>Ancient</td>
+      </tr>
+      <tr id="LC85" class="js-file-line">
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td>84</td>
+        <td> Po </td>
+        <td> Polonium</td>
+        <td> [209]</td>
+        <td>AB5C00</td>
+        <td>[Xe] 4f14 5d10 6s2 6p4 </td>
+        <td>2</td>
+        <td></td>
+        <td>94 (+4)</td>
+        <td></td>
+        <td>812</td>
+        <td>-183</td>
+        <td>-2, 2, 4, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>527</td>
+        <td>1235</td>
+        <td>9.196</td>
+        <td>metalloid</td>
+        <td>1898</td>
+      </tr>
+      <tr id="LC86" class="js-file-line">
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td>85</td>
+        <td> At </td>
+        <td> Astatine</td>
+        <td> [210]</td>
+        <td>754F45</td>
+        <td>[Xe] 4f14 5d10 6s2 6p5 </td>
+        <td>2.2</td>
+        <td></td>
+        <td>62 (+7)</td>
+        <td></td>
+        <td>920</td>
+        <td>-270</td>
+        <td>-1, 1, 3, 5</td>
+        <td>solid</td>
+        <td>covalent network</td>
+        <td>575</td>
+        <td></td>
+        <td></td>
+        <td>halogen</td>
+        <td>1940</td>
+      </tr>
+      <tr id="LC87" class="js-file-line">
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td>86</td>
+        <td> Rn </td>
+        <td> Radon</td>
+        <td> [222]</td>
+        <td>428296</td>
+        <td>[Xe] 4f14 5d10 6s2 6p6 </td>
+        <td></td>
+        <td>145</td>
+        <td></td>
+        <td></td>
+        <td>1037</td>
+        <td></td>
+        <td>2</td>
+        <td>gas</td>
+        <td>atomic</td>
+        <td>202</td>
+        <td>211</td>
+        <td>0.00973</td>
+        <td>noble gas</td>
+        <td>1900</td>
+      </tr>
+      <tr id="LC88" class="js-file-line">
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td>87</td>
+        <td> Fr </td>
+        <td> Francium</td>
+        <td> [223]</td>
+        <td>420066</td>
+        <td>[Rn] 7s1 </td>
+        <td>0.7</td>
+        <td></td>
+        <td>180 (+1)</td>
+        <td></td>
+        <td>380</td>
+        <td></td>
+        <td>1</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>alkali metal</td>
+        <td>1939</td>
+      </tr>
+      <tr id="LC89" class="js-file-line">
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td>88</td>
+        <td> Ra </td>
+        <td> Radium</td>
+        <td> [226]</td>
+        <td>007D00</td>
+        <td>[Rn] 7s2 </td>
+        <td>0.9</td>
+        <td></td>
+        <td>148 (+2)</td>
+        <td></td>
+        <td>509</td>
+        <td></td>
+        <td>2</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>973</td>
+        <td>2010</td>
+        <td>5</td>
+        <td>alkaline earth metal</td>
+        <td>1898</td>
+      </tr>
+      <tr id="LC90" class="js-file-line">
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td>89</td>
+        <td> Ac </td>
+        <td> Actinium</td>
+        <td> [227]</td>
+        <td>70ABFA</td>
+        <td>[Rn] 6d1 7s2 </td>
+        <td>1.1</td>
+        <td></td>
+        <td>112 (+3)</td>
+        <td></td>
+        <td>499</td>
+        <td></td>
+        <td>3</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1323</td>
+        <td>3473</td>
+        <td>10.07</td>
+        <td>actinoid</td>
+        <td>1899</td>
+      </tr>
+      <tr id="LC91" class="js-file-line">
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td>90</td>
+        <td> Th </td>
+        <td> Thorium</td>
+        <td> 232.03806(2)</td>
+        <td>00BAFF</td>
+        <td>[Rn] 6d2 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td>94 (+4)</td>
+        <td></td>
+        <td>587</td>
+        <td></td>
+        <td>2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>2023</td>
+        <td>5093</td>
+        <td>11.724</td>
+        <td>actinoid</td>
+        <td>1828</td>
+      </tr>
+      <tr id="LC92" class="js-file-line">
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td>91</td>
+        <td> Pa </td>
+        <td> Protactinium</td>
+        <td> 231.03588(2)</td>
+        <td>00A1FF</td>
+        <td>[Rn] 5f2 6d1 7s2 </td>
+        <td>1.5</td>
+        <td></td>
+        <td>104 (+3)</td>
+        <td></td>
+        <td>568</td>
+        <td></td>
+        <td>3, 4, 5</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1845</td>
+        <td>4273</td>
+        <td>15.37</td>
+        <td>actinoid</td>
+        <td>1913</td>
+      </tr>
+      <tr id="LC93" class="js-file-line">
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td>92</td>
+        <td> U </td>
+        <td> Uranium</td>
+        <td> 238.02891(3)</td>
+        <td>008FFF</td>
+        <td>[Rn] 5f3 6d1 7s2 </td>
+        <td>1.38</td>
+        <td></td>
+        <td>102.5 (+3)</td>
+        <td>186</td>
+        <td>598</td>
+        <td></td>
+        <td>3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1408</td>
+        <td>4200</td>
+        <td>19.05</td>
+        <td>actinoid</td>
+        <td>1789</td>
+      </tr>
+      <tr id="LC94" class="js-file-line">
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td>93</td>
+        <td> Np </td>
+        <td> Neptunium</td>
+        <td> [237]</td>
+        <td>0080FF</td>
+        <td>[Rn] 5f4 6d1 7s2 </td>
+        <td>1.36</td>
+        <td></td>
+        <td>110 (+2)</td>
+        <td></td>
+        <td>605</td>
+        <td></td>
+        <td>3, 4, 5, 6, 7</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>917</td>
+        <td>4273</td>
+        <td>20.45</td>
+        <td>actinoid</td>
+        <td>1940</td>
+      </tr>
+      <tr id="LC95" class="js-file-line">
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td>94</td>
+        <td> Pu </td>
+        <td> Plutonium</td>
+        <td> [244]</td>
+        <td>006BFF</td>
+        <td>[Rn] 5f6 7s2 </td>
+        <td>1.28</td>
+        <td></td>
+        <td>100 (+3)</td>
+        <td></td>
+        <td>585</td>
+        <td></td>
+        <td>3, 4, 5, 6, 7</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>913</td>
+        <td>3503</td>
+        <td>19.816</td>
+        <td>actinoid</td>
+        <td>1940</td>
+      </tr>
+      <tr id="LC96" class="js-file-line">
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td>95</td>
+        <td> Am </td>
+        <td> Americium</td>
+        <td> [243]</td>
+        <td>545CF2</td>
+        <td>[Rn] 5f7 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td>126 (+2)</td>
+        <td></td>
+        <td>578</td>
+        <td></td>
+        <td>2, 3, 4, 5, 6</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1449</td>
+        <td>2284</td>
+        <td></td>
+        <td>actinoid</td>
+        <td>1944</td>
+      </tr>
+      <tr id="LC97" class="js-file-line">
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td>96</td>
+        <td> Cm </td>
+        <td> Curium</td>
+        <td> [247]</td>
+        <td>785CE3</td>
+        <td>[Rn] 5f7 6d1 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td>97 (+3)</td>
+        <td></td>
+        <td>581</td>
+        <td></td>
+        <td>3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1618</td>
+        <td>3383</td>
+        <td>13.51</td>
+        <td>actinoid</td>
+        <td>1944</td>
+      </tr>
+      <tr id="LC98" class="js-file-line">
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td>97</td>
+        <td> Bk </td>
+        <td> Berkelium</td>
+        <td> [247]</td>
+        <td>8A4FE3</td>
+        <td>[Rn] 5f9 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td>96 (+3)</td>
+        <td></td>
+        <td>601</td>
+        <td></td>
+        <td>3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1323</td>
+        <td></td>
+        <td>14.78</td>
+        <td>actinoid</td>
+        <td>1949</td>
+      </tr>
+      <tr id="LC99" class="js-file-line">
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td>98</td>
+        <td> Cf </td>
+        <td> Californium</td>
+        <td> [251]</td>
+        <td>A136D4</td>
+        <td>[Rn] 5f10 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td>95 (+3)</td>
+        <td></td>
+        <td>608</td>
+        <td></td>
+        <td>2, 3, 4</td>
+        <td>solid</td>
+        <td>metallic</td>
+        <td>1173</td>
+        <td></td>
+        <td>15.1</td>
+        <td>actinoid</td>
+        <td>1950</td>
+      </tr>
+      <tr id="LC100" class="js-file-line">
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td>99</td>
+        <td> Es </td>
+        <td> Einsteinium</td>
+        <td> [252]</td>
+        <td>B31FD4</td>
+        <td>[Rn] 5f11 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>619</td>
+        <td></td>
+        <td>2, 3</td>
+        <td>solid</td>
+        <td></td>
+        <td>1133</td>
+        <td></td>
+        <td></td>
+        <td>actinoid</td>
+        <td>1952</td>
+      </tr>
+      <tr id="LC101" class="js-file-line">
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td>100</td>
+        <td> Fm </td>
+        <td> Fermium</td>
+        <td> [257]</td>
+        <td>B31FBA</td>
+        <td>[Rn] 5f12 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>627</td>
+        <td></td>
+        <td>2, 3</td>
+        <td></td>
+        <td></td>
+        <td>1800</td>
+        <td></td>
+        <td></td>
+        <td>actinoid</td>
+        <td>1952</td>
+      </tr>
+      <tr id="LC102" class="js-file-line">
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td>101</td>
+        <td> Md </td>
+        <td> Mendelevium</td>
+        <td> [258]</td>
+        <td>B30DA6</td>
+        <td>[Rn] 5f13 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>635</td>
+        <td></td>
+        <td>2, 3</td>
+        <td></td>
+        <td></td>
+        <td>1100</td>
+        <td></td>
+        <td></td>
+        <td>actinoid</td>
+        <td>1955</td>
+      </tr>
+      <tr id="LC103" class="js-file-line">
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td>102</td>
+        <td> No </td>
+        <td> Nobelium</td>
+        <td> [259]</td>
+        <td>BD0D87</td>
+        <td>[Rn] 5f14 7s2 </td>
+        <td>1.3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>642</td>
+        <td></td>
+        <td>2, 3</td>
+        <td></td>
+        <td></td>
+        <td>1100</td>
+        <td></td>
+        <td></td>
+        <td>actinoid</td>
+        <td>1957</td>
+      </tr>
+      <tr id="LC104" class="js-file-line">
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td>103</td>
+        <td> Lr </td>
+        <td> Lawrencium</td>
+        <td> [262]</td>
+        <td>C70066</td>
+        <td>[Rn] 5f14 7s2 7p1 </td>
+        <td>1.3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td>1900</td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1961</td>
+      </tr>
+      <tr id="LC105" class="js-file-line">
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td>104</td>
+        <td> Rf </td>
+        <td> Rutherfordium</td>
+        <td> [267]</td>
+        <td>CC0059</td>
+        <td>[Rn] 5f14 6d2 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1969</td>
+      </tr>
+      <tr id="LC106" class="js-file-line">
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td>105</td>
+        <td> Db </td>
+        <td> Dubnium</td>
+        <td> [268]</td>
+        <td>D1004F</td>
+        <td>[Rn] 5f14 6d3 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1967</td>
+      </tr>
+      <tr id="LC107" class="js-file-line">
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td>106</td>
+        <td> Sg </td>
+        <td> Seaborgium</td>
+        <td> [271]</td>
+        <td>D90045</td>
+        <td>[Rn] 5f14 6d4 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1974</td>
+      </tr>
+      <tr id="LC108" class="js-file-line">
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td>107</td>
+        <td> Bh </td>
+        <td> Bohrium</td>
+        <td> [272]</td>
+        <td>E00038</td>
+        <td>[Rn] 5f14 6d5 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1976</td>
+      </tr>
+      <tr id="LC109" class="js-file-line">
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td>108</td>
+        <td> Hs </td>
+        <td> Hassium</td>
+        <td> [270]</td>
+        <td>E6002E</td>
+        <td>[Rn] 5f14 6d6 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1984</td>
+      </tr>
+      <tr id="LC110" class="js-file-line">
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td>109</td>
+        <td> Mt </td>
+        <td> Meitnerium</td>
+        <td> [276]</td>
+        <td>EB0026</td>
+        <td>[Rn] 5f14 6d7 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1982</td>
+      </tr>
+      <tr id="LC111" class="js-file-line">
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td>110</td>
+        <td> Ds </td>
+        <td> Darmstadtium</td>
+        <td> [281]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d9 7s1 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1994</td>
+      </tr>
+      <tr id="LC112" class="js-file-line">
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td>111</td>
+        <td> Rg </td>
+        <td> Roentgenium</td>
+        <td> [280]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s1 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1994</td>
+      </tr>
+      <tr id="LC113" class="js-file-line">
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td>112</td>
+        <td> Cn </td>
+        <td> Copernicium</td>
+        <td> [285]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>transition metal</td>
+        <td>1996</td>
+      </tr>
+      <tr id="LC114" class="js-file-line">
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td>113</td>
+        <td> Nh </td>
+        <td> Nihonium</td>
+        <td> [284]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 7p1 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>post-transition metal</td>
+        <td>2003</td>
+      </tr>
+      <tr id="LC115" class="js-file-line">
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td>114</td>
+        <td> Fl </td>
+        <td> Flerovium</td>
+        <td> [289]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 7p2 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>post-transition metal</td>
+        <td>1998</td>
+      </tr>
+      <tr id="LC116" class="js-file-line">
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td>115</td>
+        <td> Mc </td>
+        <td> Moscovium</td>
+        <td> [288]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 7p3 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>post-transition metal</td>
+        <td>2003</td>
+      </tr>
+      <tr id="LC117" class="js-file-line">
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td>116</td>
+        <td> Lv </td>
+        <td> Livermorium</td>
+        <td> [293]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 7p4 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>post-transition metal</td>
+        <td>2000</td>
+      </tr>
+      <tr id="LC118" class="js-file-line">
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td>117</td>
+        <td> Ts </td>
+        <td> Tennessine</td>
+        <td> [294]</td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 7p5 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>post-transition metal</td>
+        <td>2010</td>
+      </tr>
+      <tr id="LC119" class="js-file-line">
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td>118</td>
+        <td> Og </td>
+        <td> Oganesson</td>
+        <td> [294] </td>
+        <td></td>
+        <td>[Rn] 5f14 6d10 7s2 7p6 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>noble gas</td>
+        <td>2002</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  </div>
+
+</div>
+
+<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+<div id="jump-to-line" style="display:none">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="container site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.15880s from github-fe-a93be76.cp1-iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-X+Q/xqnlEgxCczSjjpp2AUGGgqM5gcBzhRQ0p+EAUEk=" src="https://assets-cdn.github.com/assets/frameworks-5fe43fc6a9e5120c427334a38e9a7601418682a33981c073851434a7e1005049.js"></script>
+    <script async="async" crossorigin="anonymous" integrity="sha256-JN0IDOCyte82pz3/t75QKEFDFpJa63XbWY4kahlwAQo=" src="https://assets-cdn.github.com/assets/github-24dd080ce0b2b5ef36a73dffb7be5028414316925aeb75db598e246a1970010a.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+

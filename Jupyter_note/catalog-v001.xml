@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20" uri="ai20_1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20" uri="file:/home/hasnain/pyhas/Ontology/owl/ai20.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.daml.org/2003/01/periodictable/PeriodicTable" uri="http://www.daml.org/2003/01/periodictable/PeriodicTable.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1561132940952" name="http://www.daml.org/2003/01/periodictable/PeriodicTable" uri="PeriodicTable.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1561132940952" name="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl" uri="units.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1561132940952" name="http://www.semanticweb.org/mareike/ontologies/2019/3/MatCALO" uri="matcalo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="http://www.daml.org/2003/01/periodictable/PeriodicTable" uri="PeriodicTable.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.lesfleursdunormal.fr/static/_downloads/pizza_onto.owl" uri="test11.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.lesfleursdunormal.fr/static/_downloads/pizza_onto.owl" uri="pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20" uri="ai20.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20" uri="ai20_1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.semanticweb.org/hasnain/ontologies/2019/5/ai20" uri="ai20_R.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.semanticweb.org/hasnain/ontologies/2019/6/matai" uri="MatAi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="duplicate:http://www.semanticweb.org/hasnain/ontologies/2019/6/matai" uri="matai.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="http://www.semanticweb.org/hasnain/ontologies/2019/6/test" uri="test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="http://www.semanticweb.org/mareike/ontologies/2017/4/units.owl" uri="units.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562180233837" name="http://www.semanticweb.org/mareike/ontologies/2019/3/MatCALO" uri="matcalo.owl"/>
     </group>
 </catalog>
