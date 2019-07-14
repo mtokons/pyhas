@@ -84,6 +84,8 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Na">
+  <rdf:type rdf:resource="#Alu"/>
+  <rdf:type rdf:resource="#Na"/>
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -117,6 +119,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#2">
+  <rdf:type rdf:resource="#Alu"/>
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -130,6 +133,161 @@
 
 <owl:Class rdf:about="#ad">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<Alu rdf:about="#alu12">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#0      H
+1     He
+2     Li
+3     Be
+4      B
+5      C
+6      N
+7      O
+8      F
+9     Ne
+10    Na
+11    Mg
+12    Al
+13    Si
+14     P
+15     S
+16    Cl
+17    Ar
+18     K
+19    Ca
+20    Sc
+21    Ti
+22     V
+23    Cr
+24    Mn
+Name: Sym, dtype: object">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="# ">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#H">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#
+">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#t">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#Mn">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#He">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#Li">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#Be">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#B">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#C">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#N">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#O">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#F">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<Alu rdf:about="#Ne">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="#Na"/>
+</Alu>
+
+<owl:Class rdf:about="#i">
+  <rdfs:subClassOf rdf:resource="#A"/>
+</owl:Class>
+
+<owl:Class rdf:about="#x">
+  <rdfs:subClassOf rdf:resource="#A"/>
+  <rdfs:subClassOf rdf:resource="#ab"/>
+</owl:Class>
+
+<owl:Class rdf:about="#dd">
+  <rdfs:subClassOf rdf:resource="#ab"/>
+</owl:Class>
+
+<owl:Class rdf:about="#   Sym
+0    H
+1   He
+2   Li
+3   Be
+4    B
+5    C
+6    N
+7    O
+8    F
+9   Ne
+10  Na
+11  Mg
+12  Al
+13  Si
+14   P
+15   S
+16  Cl
+17  Ar
+18   K
+19  Ca
+20  Sc
+21  Ti
+22   V
+23  Cr
+24  Mn">
+  <rdfs:subClassOf rdf:resource="#ab"/>
 </owl:Class>
 
 
