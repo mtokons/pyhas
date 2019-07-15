@@ -356,6 +356,13 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Heat_Fusion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Ingredient"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Heat_of_fusion"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Heat_Fusion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
