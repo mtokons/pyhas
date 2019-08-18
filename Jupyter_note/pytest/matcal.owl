@@ -84,8 +84,6 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Na">
-  <rdf:type rdf:resource="#Alu"/>
-  <rdf:type rdf:resource="#Na"/>
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -119,175 +117,171 @@
 </owl:Class>
 
 <owl:Class rdf:about="#2">
-  <rdf:type rdf:resource="#Alu"/>
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#ab">
+<Alu rdf:about="#maryjacobs@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#davesmith@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#janestuart@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#tomwright@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#steverobinson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#nicolejacobs@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#janewright@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#janedoe@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#kurtwright@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#kurtrobinson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#janejenkins@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#neilrobinson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#tompatterson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#samjenkins@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#stevestuart@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#maggiepatterson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#maggiestuart@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#stevepatterson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#samwilks@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#kurtjefferson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#samstuart@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#davedavis@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#sampatterson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#tomjefferson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#maggiejefferson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#marywilks@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#neilpatterson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#coreydavis@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#stevejacobs@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#johnjacobs@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#neilsmith@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#coreywilks@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#coreysmith@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#marypatterson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#travisarnold@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<Alu rdf:about="#johnrobinson@bogusemail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Alu>
+
+<owl:Class rdf:about="#b">
+  <rdfs:subClassOf rdf:resource="#Alu"/>
+</owl:Class>
+
+<owl:Class rdf:about="#bc">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#ac">
+<owl:Class rdf:about="#abs">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#ad">
+<owl:Class rdf:about="#acs">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<Alu rdf:about="#alu12">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#0      H
-1     He
-2     Li
-3     Be
-4      B
-5      C
-6      N
-7      O
-8      F
-9     Ne
-10    Na
-11    Mg
-12    Al
-13    Si
-14     P
-15     S
-16    Cl
-17    Ar
-18     K
-19    Ca
-20    Sc
-21    Ti
-22     V
-23    Cr
-24    Mn
-Name: Sym, dtype: object">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#0">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="# ">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#H">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#
-">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#e">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#t">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</Alu>
-
-<Alu rdf:about="#Mn">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#He">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#Li">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#Be">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#B">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#C">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#N">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#O">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#F">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<Alu rdf:about="#Ne">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="#Na"/>
-</Alu>
-
-<owl:Class rdf:about="#i">
-  <rdfs:subClassOf rdf:resource="#A"/>
-</owl:Class>
-
-<owl:Class rdf:about="#x">
-  <rdfs:subClassOf rdf:resource="#A"/>
-  <rdfs:subClassOf rdf:resource="#ab"/>
-</owl:Class>
-
-<owl:Class rdf:about="#dd">
-  <rdfs:subClassOf rdf:resource="#ab"/>
-</owl:Class>
-
-<owl:Class rdf:about="#   Sym
-0    H
-1   He
-2   Li
-3   Be
-4    B
-5    C
-6    N
-7    O
-8    F
-9   Ne
-10  Na
-11  Mg
-12  Al
-13  Si
-14   P
-15   S
-16  Cl
-17  Ar
-18   K
-19  Ca
-20  Sc
-21  Ti
-22   V
-23  Cr
-24  Mn">
-  <rdfs:subClassOf rdf:resource="#ab"/>
+<owl:Class rdf:about="#ads">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
 
