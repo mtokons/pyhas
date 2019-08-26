@@ -859,6 +859,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1173</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1925.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">251.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-71-3</casRegistryID>
@@ -878,6 +880,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_17"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_3"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">239.11</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">172.31</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.453</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7782-50-5</casRegistryID>
@@ -897,6 +901,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3383</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1340.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">247.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-51-9</casRegistryID>
@@ -916,6 +922,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_9"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3200</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1768.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.9332</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-48-4</casRegistryID>
@@ -935,6 +943,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_6"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2944</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2130.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.9961</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-47-3</casRegistryID>
@@ -954,6 +964,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">944</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">301.7</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">132.90546</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-46-2</casRegistryID>
@@ -973,6 +985,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_11"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2835</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1357.75</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.546</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-50-8</casRegistryID>
@@ -1011,6 +1025,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2840</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1680.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">162.5</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7429-91-6</casRegistryID>
@@ -1030,6 +1046,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3503</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1795.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">167.259</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-52-0</casRegistryID>
@@ -1049,6 +1067,7 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1133.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">252.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7429-92-7</casRegistryID>
@@ -1068,6 +1087,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1802</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1095.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">151.964</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-53-1</casRegistryID>
@@ -1087,6 +1108,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_17"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_2"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85.03</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53.63</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.998404</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7782-41-4</casRegistryID>
@@ -1106,6 +1129,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_8"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3134</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1808.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.845</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-89-6</casRegistryID>
@@ -1144,6 +1169,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">950</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">223.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-73-5</casRegistryID>
@@ -1163,6 +1190,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_13"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2477</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">302.91</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">69.723</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-55-3</casRegistryID>
@@ -1182,6 +1211,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3546</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1585.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">157.25</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-54-2</casRegistryID>
@@ -1201,6 +1232,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_14"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3106</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1211.45</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">72.64</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-56-4</casRegistryID>
@@ -1220,6 +1253,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_1"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.28</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.175</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.00794</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1333-74-0</casRegistryID>
@@ -1239,6 +1274,7 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_18"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_1"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.22</Boiling_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.002602</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-59-7</casRegistryID>
@@ -1266,6 +1302,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_4"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4876</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2500.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">178.49</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-58-6</casRegistryID>
@@ -1285,6 +1323,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_12"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#liquid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">630</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">234.43</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200.59</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-97-6</casRegistryID>
@@ -1304,6 +1344,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2993</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1743.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">164.93031</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-60-0</casRegistryID>
@@ -1342,6 +1384,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_17"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">457.4</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386.65</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">126.90447</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7553-56-2</casRegistryID>
@@ -1361,6 +1405,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_13"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2345</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">429.91</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">114.818</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-74-6</casRegistryID>
@@ -1380,6 +1426,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_9"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4701</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2716.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">192.217</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-88-5</casRegistryID>
@@ -1399,6 +1447,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">336.5</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.0983</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-09-7</casRegistryID>
@@ -1418,6 +1468,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_18"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">119.93</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">115.93</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">83.798</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-90-9</casRegistryID>
@@ -1437,6 +1489,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3737</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1193.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">138.9055</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-91-0</casRegistryID>
@@ -1456,6 +1510,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_2"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1615</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">453.85</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.941</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-93-2</casRegistryID>
@@ -1494,6 +1550,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_3"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1936.15</Melting_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3675</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">174.967</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-94-3</casRegistryID>
@@ -1540,6 +1598,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_2"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_3"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1363</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">923.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.305</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-95-4</casRegistryID>
@@ -1559,6 +1619,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_7"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2334</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1519.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.93805</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-96-5</casRegistryID>
@@ -1578,6 +1640,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_6"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4912</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2890.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">95.94</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-98-7</casRegistryID>
@@ -1616,6 +1680,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_15"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_2"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77.36</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63.29</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0067</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7727-37-9</casRegistryID>
@@ -1635,6 +1701,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_3"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1156</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">371.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.98977</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-23-5</casRegistryID>
@@ -1654,6 +1722,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_5"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5017</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2741.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.90638</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-03-1</casRegistryID>
@@ -1673,6 +1743,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3347</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1289.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">144.24</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-00-8</casRegistryID>
@@ -1692,6 +1764,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_18"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_2"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.07</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.703</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.1797</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-01-9</casRegistryID>
@@ -1711,6 +1785,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_10"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3186</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1726.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.6934</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-02-0</casRegistryID>
@@ -1757,6 +1833,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4273</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">913.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">237.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-99-8</casRegistryID>
@@ -1776,6 +1854,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_16"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_2"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90.2</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.5</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.9994</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7782-44-7</casRegistryID>
@@ -1795,6 +1875,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_8"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5285</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3300.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.23</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-04-2</casRegistryID>
@@ -1814,6 +1896,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_15"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_3"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">317.25</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.97376</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7723-14-0</casRegistryID>
@@ -1833,6 +1917,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4300</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1873.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">231.03587</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-13-3</casRegistryID>
@@ -1852,6 +1938,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_14"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600.75</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">207.2</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7439-92-1</casRegistryID>
@@ -1871,6 +1959,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_10"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3236</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1825.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">106.42</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-05-3</casRegistryID>
@@ -1890,6 +1980,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3273</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1204.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">145.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-12-2</casRegistryID>
@@ -1909,6 +2001,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_16"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1235</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">527.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">209.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-08-6</casRegistryID>
@@ -1928,6 +2022,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3793</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1204.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">140.90765</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-10-0</casRegistryID>
@@ -1947,6 +2043,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_10"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4098</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2045.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">195.078</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-06-4</casRegistryID>
@@ -1966,6 +2064,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3501</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">913.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">244.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-07-5</casRegistryID>
@@ -1985,6 +2085,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_2"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">973.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">226.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-14-4</casRegistryID>
@@ -2004,6 +2106,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_1"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">961</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">312.79</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">85.4678</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-17-7</casRegistryID>
@@ -2023,6 +2127,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_7"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5869</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3453.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">186.207</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-15-5</casRegistryID>
@@ -2061,6 +2167,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_9"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3968</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2239.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">102.9055</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-16-6</casRegistryID>
@@ -2080,6 +2188,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_18"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">211.3</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">202.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">222.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10043-92-2</casRegistryID>
@@ -2099,6 +2209,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_8"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4423</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2523.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">101.07</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-18-8</casRegistryID>
@@ -2118,6 +2230,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_16"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_3"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">717.8</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">388.51</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">32.065</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7704-34-9</casRegistryID>
@@ -2137,6 +2251,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_15"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1860</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">904.05</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">121.76</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-36-0</casRegistryID>
@@ -2156,6 +2272,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_3"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3109</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1812.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.95591</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-20-2</casRegistryID>
@@ -2175,6 +2293,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_16"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">958</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">494.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">78.96</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7782-49-2</casRegistryID>
@@ -2221,6 +2341,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_14"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_3"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3538</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1683.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.0855</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-21-3</casRegistryID>
@@ -2240,6 +2362,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2067</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1345.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.36</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-19-9</casRegistryID>
@@ -2259,6 +2383,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_14"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2875</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">505.21</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">118.71</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-31-5</casRegistryID>
@@ -2278,6 +2404,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_2"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1655</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1042.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">87.62</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-24-6</casRegistryID>
@@ -2297,6 +2425,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_5"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5731</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3269.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">180.9479</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-25-7</casRegistryID>
@@ -2316,6 +2446,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3503</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1630.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158.92534</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-27-9</casRegistryID>
@@ -2335,6 +2467,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_7"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5150</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2473.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">98.0</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-26-8</casRegistryID>
@@ -2354,6 +2488,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_16"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1261</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">722.8</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">127.6</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13494-80-9</casRegistryID>
@@ -2373,6 +2509,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5061</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2028.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">232.0381</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-29-1</casRegistryID>
@@ -2392,6 +2530,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_4"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3560</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1933.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.867</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-32-6</casRegistryID>
@@ -2411,6 +2551,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_13"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1746</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">577.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">204.3833</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-28-0</casRegistryID>
@@ -2430,6 +2572,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2223</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1818.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">168.9342</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-30-4</casRegistryID>
@@ -2449,6 +2593,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_actinoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_7"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4404</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1405.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">238.02892</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-61-1</casRegistryID>
@@ -2625,6 +2771,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_5"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3680</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2175.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.9415</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-62-2</casRegistryID>
@@ -2644,6 +2792,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_6"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5828</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3680.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">183.84</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-33-7</casRegistryID>
@@ -2663,6 +2813,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_18"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#gas"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">165.03</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">161.45</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">131.293</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-63-3</casRegistryID>
@@ -2682,6 +2834,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_3"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3609</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1799.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">88.90585</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-65-5</casRegistryID>
@@ -2701,6 +2855,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_lanthanoid"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_6"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1469</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1097.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">173.04</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-64-4</casRegistryID>
@@ -2720,6 +2876,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_12"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_4"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1180</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">692.88</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.409</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-66-6</casRegistryID>
@@ -2739,6 +2897,8 @@
         <group rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#group_4"/>
         <period rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#period_5"/>
         <standardState rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#solid"/>
+        <Boiling_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4682</Boiling_Point>
+        <Melting_Point rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2125.15</Melting_Point>
         <atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</atomicNumber>
         <atomicWeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">91.224</atomicWeight>
         <casRegistryID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7440-67-7</casRegistryID>
