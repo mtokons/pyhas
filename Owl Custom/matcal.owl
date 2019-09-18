@@ -32,15 +32,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Element_category -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Element_category">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasnain/ontologies/Actinide"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Element"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Heat_of_fusion -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Heat_of_fusion">
@@ -338,14 +329,6 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Element_category -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/hasnain/ontologies/2019/6/matcal#Element_category">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
